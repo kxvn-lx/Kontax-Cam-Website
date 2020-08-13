@@ -5,9 +5,9 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Kontax Cam`,
+    description: `Instant camera hybrid for creators, by creators.`,
+    author: `@kevinlx_`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -18,10 +18,10 @@ module.exports = {
         name: `gatsby-starter-tailwind`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.teal["400"],
+        background_color: fullConfig.theme.colors.red,
+        theme_color: fullConfig.theme.colors.teal["200"],
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/favicon.png`,
       },
     },
     {
@@ -37,5 +37,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-styled-components`,
   ],
 };

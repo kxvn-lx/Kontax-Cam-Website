@@ -3,3 +3,8 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+
+.bg-blur {
+    backdrop-filter: blur(12px) saturate(100%);
+    -webkit-backdrop-filter: blur(12px) saturate(50%);
+}

@@ -2,42 +2,35 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 
 function IndexPage() {
-  return (
-    <Layout>
-      <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
-      />
+    return (
+        <Layout>
+            <SEO
+                keywords={[`kevin laminto`, `kevinlaminto`, `kontaxcam`, `kontax cam`]}
+                title="Home"
+            />
 
-      <section className="text-center">
-        <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        />
-
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
-        </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
-          </a>
-          , a utility-first CSS framework.
-        </p>
-      </section>
-    </Layout>
-  );
+            <section className="bg-black rounded-lg p-8 text-gray-100 text-center">
+                <span className="bg-gray-900 rounded-full p-3 font-bold" >Kontax Cam</span>
+                <h1 className="lg:text-5xl text-4xl m-3 font-bold">Instant camera hybrid for creators, by creators.</h1>
+                <p className="text-gray-400 w-3/4 mx-auto">
+                    Minimalist instant camera optimised for iOS device.
+                    Built with precision and love, Kontax Cam provides custom
+                    real film effects and filters to emulate 35mm film footage,
+                    while allow photographers to blend in digital aspect to make
+                    a unique masterpiece.
+                </p>
+                <a
+                    className="text-white p-3 m-10 font-bold bg-blue-600 rounded-lg inline-block"
+                    href="https://testflight.apple.com/join/MzTKHQdv"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Join the Beta
+                </a>
+            </section>
+        </Layout>
+    );
 }
 
 export default IndexPage;
