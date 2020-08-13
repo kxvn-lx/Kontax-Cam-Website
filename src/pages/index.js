@@ -15,7 +15,7 @@ function IndexPage() {
         <Layout>
             <SEO
                 keywords={[`kevin laminto`, `kevinlaminto`, `kontaxcam`, `kontax cam`]}
-                title="Kontax Cam"
+                title="Home"
             />
 
             <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
@@ -23,11 +23,9 @@ function IndexPage() {
                     <span className="bg-gray-800 rounded-full p-3 font-bold" >Coming soon</span>
                     <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid for films and digital photographers, by photographers.</h1>
                     <p className="text-gray-300 w-3/4 mx-auto">
-                        Minimalist instant camera optimised for iOS device.
-                        Built with precision and love, Kontax Cam provides custom
-                        real film effects and filters to emulate 35mm film footage,
-                        while allow photographers to blend in digital aspect to make
-                        a unique masterpiece.
+                        Minimalist instant camera app optimised for any iOS device. 
+                        Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage, 
+                        while allowing photographers to blend in digital aspects to make a unique masterpiece.
                 </p>
                     <a
                         className="text-white p-3 m-10 font-bold bg-blue-600 shadow-blue-600 rounded-lg inline-block"
