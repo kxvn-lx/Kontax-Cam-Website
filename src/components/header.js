@@ -15,11 +15,11 @@ function Header() {
   `);
 
     return (
-        <header className="">
+        <header>
             <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-6">
                 <Link to="/">
-                    <h1 className="flex items-center text-black no-underline">
-                        <img className="h-10 w-10 rounded-lg mr-4" src={KCLogo} alt="Kontax Cam logo"/>
+                    <h1 className="flex items-center text-white no-underline">
+                        <img className="border border-gray-800 h-10 w-10 rounded-lg mr-4" src={KCLogo} alt="Kontax Cam logo"/>
                         <span className="text-xl font-bold">
                             {site.siteMetadata.title}
                         </span>
