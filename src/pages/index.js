@@ -8,16 +8,17 @@ import colorIcon from "../images/color.icon.png"
 import dustIcon from "../images/dust.icon.png"
 import grainIcon from "../images/grain.icon.png"
 import leakIcon from "../images/leak.icon.png"
+import datestampIcon from "../images/calendar.icon.png"
 
 function IndexPage() {
     return (
         <Layout>
             <SEO
                 keywords={[`kevin laminto`, `kevinlaminto`, `kontaxcam`, `kontax cam`]}
-                title="Home"
+                title="Kontax Cam"
             />
 
-            <div className="rounded-lg pt-32 xl:py-32 xl:px-8 text-gray-100 text-center">
+            <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
                     <span className="bg-gray-800 rounded-full p-3 font-bold" >Coming soon</span>
                     <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid for films and digital photographers, by photographers.</h1>
@@ -62,6 +63,11 @@ function IndexPage() {
                                 Currently, Kontax Cam provides three different colours: red, green, and blue.`,
                             },
                             {
+                                icon: datestampIcon,
+                                title: `Datestamp`,
+                                description: `Allows you to add realistic film datestamp into your photo.`,
+                            },
+                            {
                                 icon: dustIcon,
                                 title: `Film dust`,
                                 description: `Dust allows you to overlay your photo with real film dust.
@@ -93,7 +99,7 @@ function IndexPage() {
                 </div>
             </div>
 
-            <div className="rounded-lg pt-32 xl:py-32 xl:px-8 text-gray-100 text-center">
+            <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
                 <h1 className="text-3xl m-3 font-bold">Handcrafted custom-made filters</h1>
                 <p className="text-gray-300 w-3/4 mx-auto">
                     Kontax Cam provides collections that is made from emulating both classic film stocks and digital cameras.
@@ -102,30 +108,30 @@ function IndexPage() {
                 <p className="text-gray-300 text-sm mt-4">{`Note: Send your photo captured with a filter via email to get it featured on the collection's cover page!`}</p>
 
                 <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-20">
+                    {
+                        [{
+                            title: `A Collection`,
+                        },
                         {
-                            [{
-                                title: `A Collection`,
-                            },
-                            {
-                                title: `B Collection`,
-                            },
-                            {
-                                title: `C Collection`,
-                            },
-                            {
-                                title: `BW Collection`,
-                            },
-                            {
-                                title: `+ more in the future!`,
-                            },
-                            ].map((item) => (
-                                <div key={item.title} className="rounded-lg grid p-4 max-w-xs mx-auto" style={{justifyItems: 'center'}}>
-                                    <span className="p-2 mb-5 w-16 rounded-full bg-gray-900 font-bold">{item.title.split(" ")[0]}</span>
-                                    <h3 className="font-bold text-xl">{item.title}</h3>
-                                </div>
-                            ))
-                        }
-                    </div>
+                            title: `B Collection`,
+                        },
+                        {
+                            title: `C Collection`,
+                        },
+                        {
+                            title: `BW Collection`,
+                        },
+                        {
+                            title: `+ more in the future!`,
+                        },
+                        ].map((item) => (
+                            <div key={item.title} className="rounded-lg grid p-4 max-w-xs mx-auto" style={{ justifyItems: 'center' }}>
+                                <span className="p-2 mb-5 w-16 rounded-full bg-gray-900 font-bold">{item.title.split(" ")[0]}</span>
+                                <h3 className="font-bold text-xl">{item.title}</h3>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
         </Layout >
     );

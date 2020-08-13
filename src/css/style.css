@@ -13,15 +13,15 @@ html {
 }
 
 .shadow-blue-600 {
-    -webkit-box-shadow: 0px 18px 40px -12px rgba(54, 132, 204, 0.35);
-    -moz-box-shadow: 0px 18px 40px -12px rgba(54, 132, 204, 0.35);
-    box-shadow: 0px 18px 40px -12px rgba(54, 132, 204, 0.35);
+    -webkit-box-shadow: 0px 18px 40px -12px rgba(54, 132, 204, 0.40);
+    -moz-box-shadow: 0px 18px 40px -12px rgba(54, 132, 204, 0.40);
+    box-shadow: 0px 18px 40px -12px rgba(54, 132, 204, 0.40);
 }
 
 @media not all and (pointer: coarse) {
     .shadow-blue-600:hover {
-        -webkit-box-shadow: 0px 24px 48px -12px rgba(54, 132, 204, 0.35);
-        -moz-box-shadow: 0px 24px 48px -12px rgba(54, 132, 204, 0.35);
-        box-shadow: 0px 24px 48px -12px rgba(54, 132, 204, 0.35);
+        -webkit-box-shadow: 0px 24px 48px -12px rgba(54, 132, 204, 0.50);
+        -moz-box-shadow: 0px 24px 48px -12px rgba(54, 132, 204, 0.50);
+        box-shadow: 0px 24px 48px -12px rgba(54, 132, 204, 0.50);
     }
 }
