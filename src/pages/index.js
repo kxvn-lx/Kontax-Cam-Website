@@ -41,7 +41,7 @@ function IndexPage() {
                 <div className="bg-gray-900 rounded-lg px-3 py-20 md:col-span-1">
                     <div className="text-center mb-5 mx-auto">
                         <h1 className="font-bold text-white text-3xl mt-4">Your masterpiece,<br />one tap away.</h1>
-                        <p className="text-gray-300">Access all the power of Kontax Cam with just a tap away.</p>
+                        <p className="text-gray-300">Access all the power of Kontax Cam with just a tap.</p>
                     </div>
                     <img className="w-10/12 h-auto mx-auto" src={image1} alt="Kontax Cam User interface" />
                 </div>
@@ -49,7 +49,7 @@ function IndexPage() {
                 <div id="features" className="bg-gray-900 rounded-lg px-10 py-20 md:col-span-2">
                     <div className="text-center">
                         <h1 className="font-bold text-3xl mt-4">Carefully crafted effects</h1>
-                        <p className="text-gray-300">All of these handcrafted effects, plus more in the future!</p>
+                        <p className="text-gray-300">All of these handcrafted effects, plus more coming soon!</p>
                     </div>
 
                     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-20">
@@ -57,32 +57,32 @@ function IndexPage() {
                             [{
                                 icon: colorIcon,
                                 title: `Colour leaks`,
-                                description: `Colour leaks add a gorgeous film colour overlay into your photo. 
+                                description: `Colour leaks add a gorgeous film colour overlay on your photo. 
                                 Currently, Kontax Cam provides three different colours: red, green, and blue.`,
                             },
                             {
                                 icon: datestampIcon,
                                 title: `Datestamp`,
-                                description: `Allows you to add realistic film datestamp into your photo.`,
+                                description: `Allows you to add a realistic film datestamp on your photo.`,
                             },
                             {
                                 icon: dustIcon,
                                 title: `Film dust`,
-                                description: `Dust allows you to overlay your photo with real film dust.
+                                description: `This feature allows you to overlay your photo with real film dust.
                                 This effect is best used with a film/vintage filter to make
                                 it more unique.`,
                             },
                             {
                                 icon: grainIcon,
                                 title: `Film grain`,
-                                description: `Grain makes your photo looks sharp, scratched and old school!
-                                Although ecessive use might render the photo too over-sharpen,
-                                grain is beloved in the heart of film photographers.`,
+                                description: `Grain makes your photo look sharp, scratched, and old school!
+                                Although excessive use might render the photo overly shapened.
+                                Film photographers love this effect.`,
                             },
                             {
                                 icon: leakIcon,
                                 title: `Light leaks`,
-                                description: `Light leaks make your photo pop with custom made film light leaks.
+                                description: `Light leaks make your photo pop with custom made film light effects.
                                 This effect can be used to make your photo look artsy and stylish.`,
                             },
                             ].map((item) => (
@@ -100,8 +100,8 @@ function IndexPage() {
             <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
                 <h1 className="text-3xl m-3 font-bold">Handcrafted custom-made filters</h1>
                 <p className="text-gray-300 w-3/4 mx-auto">
-                    Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital cameras look.
-                    Experiment with the combination to create your own filter + effects combo!
+                    Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts.
+                    Experiment with a combination to create your own filter and effects combo!
                 </p>
                 <p className="text-gray-300 text-sm mt-4">{`Note: Send your photo captured with a filter via email to get it featured on the collection's cover page!`}</p>
 
