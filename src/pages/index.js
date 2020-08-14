@@ -76,13 +76,13 @@ function IndexPage() {
                                 icon: grainIcon,
                                 title: `Film grain`,
                                 description: `Grain makes your photo look sharp, scratched, and old school!
-                                Although excessive use might render the photo overly shapened.
+                                Although excessive use might render the photo overly sharpened.
                                 Film photographers love this effect.`,
                             },
                             {
                                 icon: leakIcon,
                                 title: `Light leaks`,
-                                description: `Light leaks make your photo pop with custom made film light effects.
+                                description: `Light leaks make your photo pop with custom film light effects.
                                 This effect can be used to make your photo look artsy and stylish.`,
                             },
                             ].map((item) => (
@@ -101,7 +101,7 @@ function IndexPage() {
                 <h1 className="text-3xl m-3 font-bold">Handcrafted custom-made filters</h1>
                 <p className="text-gray-300 w-3/4 mx-auto">
                     Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts.
-                    Experiment with a combination to create your own filter and effects combo!
+                    Experiment with different combinations to create your own filter and effects combo!
                 </p>
                 <p className="text-gray-300 text-sm mt-4">{`Note: Send your photo captured with a filter via email to get it featured on the collection's cover page!`}</p>
 
