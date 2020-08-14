@@ -68,7 +68,7 @@ function IndexPage() {
                                 filterName: "C2"
                             }
                         ].map((item) => (
-                            <ImageShowcase imageName={item.imageName} filterName={item.filterName} />
+                            <ImageShowcase key={item.imageName} imageName={item.imageName} filterName={item.filterName} />
                         ))
                     }
                 </div>
