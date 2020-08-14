@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Kontax Cam`,
-    description: `Instant camera hybrid for creators, by creators.`,
+    description: `Instant camera app hybrid for creators, by creators.`,
     author: `@kevinlx_`,
   },
   plugins: [
@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
+        name: `KontaxCam`,
         short_name: `starter`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.red,
