@@ -21,7 +21,7 @@ function IndexPage() {
             <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
                     <span className="bg-gray-800 rounded-full p-3 font-bold" >Coming soon</span>
-                    <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid for films and digital photographers, by photographers.</h1>
+                    <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
                     <p className="text-gray-300 w-3/4 mx-auto">
                         Minimalist instant camera app optimised for any iOS device. 
                         Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage, 
@@ -41,7 +41,7 @@ function IndexPage() {
                 <div className="bg-gray-900 rounded-lg px-3 py-20 md:col-span-1">
                     <div className="text-center mb-5 mx-auto">
                         <h1 className="font-bold text-white text-3xl mt-4">Your masterpiece,<br />one tap away.</h1>
-                        <p className="text-gray-300">Access all the power of <span className="font-bold">Kontax Cam</span> with just a tap away.</p>
+                        <p className="text-gray-300">Access all the power of Kontax Cam with just a tap away.</p>
                     </div>
                     <img className="w-10/12 h-auto mx-auto" src={image1} alt="Kontax Cam User interface" />
                 </div>
