@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import ImageShowcase from "../components/imageShowcase"
+// import ImageShowcase from "../components/imageShowcase"
 
 import image1 from "../images/image1.png"
 import colorIcon from "../images/color.icon.png"
