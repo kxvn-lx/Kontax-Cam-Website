@@ -37,7 +37,7 @@ img {
 
 .bg-blur {
     backdrop-filter: blur(12px) saturate(100%);
-    -webkit-backdrop-filter: blur(12px) saturate(50%);
+    -webkit-backdrop-filter: blur(12px) saturate(100%);
 }
 
 /* MARKDOWN */

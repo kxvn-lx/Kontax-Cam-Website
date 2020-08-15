@@ -76,7 +76,7 @@ function IndexPage() {
 
 
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
-                <div className="bg-gray-900 px-3 py-20 md:col-span-1">
+                <div className="bg-gray-900 px-3 py-20 md:col-span-1 rounded-lg">
                     <div className="text-center mb-5 mx-auto">
                         <h1 className="font-bold text-3xl mt-4">Your masterpiece,<br />one tap away.</h1>
                         <p className="text-gray-300">Access all the power of Kontax Cam with just a tap.</p>
@@ -84,7 +84,7 @@ function IndexPage() {
                     <img className="w-10/12 h-auto mx-auto" src={image1} alt="Kontax Cam User interface" />
                 </div>
 
-                <div id="features" className="bg-gray-900 px-10 py-20 md:col-span-2">
+                <div id="features" className="bg-gray-900 px-10 py-20 md:col-span-2 rounded-lg">
                     <div className="text-center">
                         <h1 className="font-bold text-3xl mt-4">Carefully crafted effects</h1>
                         <p className="text-gray-300">All of these handcrafted effects, plus more coming soon!</p>
