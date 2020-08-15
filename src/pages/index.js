@@ -79,7 +79,7 @@ function IndexPage() {
                 <div className="bg-gray-900 px-3 py-20 md:col-span-1">
                     <div className="text-center mb-5 mx-auto">
                         <h1 className="font-bold text-3xl mt-4">Your masterpiece,<br />one tap away.</h1>
-                        <p className="text-gray-300">Access all the power of Kontax Cam with just a tap away.</p>
+                        <p className="text-gray-300">Access all the power of Kontax Cam with just a tap.</p>
                     </div>
                     <img className="w-10/12 h-auto mx-auto" src={image1} alt="Kontax Cam User interface" />
                 </div>
@@ -87,7 +87,7 @@ function IndexPage() {
                 <div id="features" className="bg-gray-900 px-10 py-20 md:col-span-2">
                     <div className="text-center">
                         <h1 className="font-bold text-3xl mt-4">Carefully crafted effects</h1>
-                        <p className="text-gray-300">All of these handcrafted effects, plus more in the future!</p>
+                        <p className="text-gray-300">All of these handcrafted effects, plus more coming soon!</p>
                     </div>
 
                     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-20">
@@ -95,7 +95,7 @@ function IndexPage() {
                             [{
                                 icon: colorIcon,
                                 title: `Colour leaks`,
-                                description: `Colour leaks add a gorgeous film colour overlay into your photo. 
+                                description: `Colour leaks add a gorgeous film colour overlay on your photo. 
                                 Currently, Kontax Cam provides three different colours: red, green, and blue.`,
                             },
                             {
@@ -114,13 +114,13 @@ function IndexPage() {
                                 icon: grainIcon,
                                 title: `Film grain`,
                                 description: `Grain makes your photo looks sharp, scratched and old school!
-                                Although ecessive use might render the photo too over-sharpen,
+                                Although ecessive use might render the photo overly sharpened.,
                                 grain is beloved in the heart of film photographers.`,
                             },
                             {
                                 icon: leakIcon,
                                 title: `Light leaks`,
-                                description: `Light leaks make your photo pop with custom made film light leaks.
+                                description: `Light leaks make your photo pop with custom made film light effects.
                                 This effect can be used to make your photo look artsy and stylish.`,
                             },
                             ].map((item) => (
