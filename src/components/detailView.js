@@ -31,8 +31,7 @@ export default function DetailView() {
 }
 
 const PhotographersAvatar = styled.div`
-    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
-
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     span {
         pointer-events: none;
     }
