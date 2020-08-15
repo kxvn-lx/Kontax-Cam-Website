@@ -2,6 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import ImageShowcase from "../components/ImageShowcase"
 
 import image1 from "../images/image1.png"
 import colorIcon from "../images/color.icon.png"
@@ -15,7 +16,7 @@ function IndexPage() {
         <Layout>
             <SEO
                 keywords={[`kevin laminto`, `kevinlaminto`, `kontaxcam`, `kontax cam`]}
-                title="Home"
+                title="Kontax Cam"
             />
 
             <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
@@ -23,12 +24,12 @@ function IndexPage() {
                     <span className="bg-gray-800 rounded-full p-3 font-bold" >Coming soon</span>
                     <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
                     <p className="text-gray-300 w-3/4 mx-auto">
-                        Minimalist instant camera app optimised for any iOS device. 
-                        Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage, 
+                        Minimalist instant camera app optimised for any iOS device.
+                        Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
                         while allowing photographers to blend in digital aspects to make a unique masterpiece.
                 </p>
                     <a
-                        className="text-white p-3 m-10 font-bold bg-blue-600 shadow-blue-600 rounded-lg inline-block"
+                        className="p-3 m-10 font-bold bg-blue-600 shadow-blue-600 rounded-lg inline-block"
                         href="https://testflight.apple.com/join/MzTKHQdv"
                         target="_blank"
                         rel="noopener noreferrer">
@@ -37,16 +38,53 @@ function IndexPage() {
                 </div>
             </div>
 
-            <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10 text-white">
-                <div className="bg-gray-900 rounded-lg px-3 py-20 md:col-span-1">
+            {/* <div className="mt-4">
+            <h1 className="font-bold text-3xl">#TakenWithKontaxCam</h1>
+                <div className="grid gap-4 grid-cols-2 md:grid-cols-3">
+                    {
+                        [
+                            {
+                                imageName: "ex1",
+                                filterName: "A1"
+                            },
+                            {
+                                imageName: "ex2",
+                                filterName: "A2"
+                            },
+                            {
+                                imageName: "ex3",
+                                filterName: "B1"
+                            },
+                            {
+                                imageName: "ex4",
+                                filterName: "BW1"
+                            },
+                            {
+                                imageName: "ex5",
+                                filterName: "B2"
+                            },
+                            {
+                                imageName: "ex6",
+                                filterName: "C2"
+                            }
+                        ].map((item) => (
+                            <ImageShowcase key={item.imageName} imageName={item.imageName} filterName={item.filterName} />
+                        ))
+                    }
+                </div>
+            </div> */}
+
+
+            <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
+                <div className="bg-gray-900 px-3 py-20 md:col-span-1">
                     <div className="text-center mb-5 mx-auto">
-                        <h1 className="font-bold text-white text-3xl mt-4">Your masterpiece,<br />one tap away.</h1>
+                        <h1 className="font-bold text-3xl mt-4">Your masterpiece,<br />one tap away.</h1>
                         <p className="text-gray-300">Access all the power of Kontax Cam with just a tap.</p>
                     </div>
                     <img className="w-10/12 h-auto mx-auto" src={image1} alt="Kontax Cam User interface" />
                 </div>
 
-                <div id="features" className="bg-gray-900 rounded-lg px-10 py-20 md:col-span-2">
+                <div id="features" className="bg-gray-900 px-10 py-20 md:col-span-2">
                     <div className="text-center">
                         <h1 className="font-bold text-3xl mt-4">Carefully crafted effects</h1>
                         <p className="text-gray-300">All of these handcrafted effects, plus more coming soon!</p>
@@ -75,14 +113,14 @@ function IndexPage() {
                             {
                                 icon: grainIcon,
                                 title: `Film grain`,
-                                description: `Grain makes your photo look sharp, scratched, and old school!
-                                Although excessive use might render the photo overly sharpened.
-                                Film photographers love this effect.`,
+                                description: `Grain makes your photo looks sharp, scratched and old school!
+                                Although ecessive use might render the photo overly sharpened.,
+                                grain is beloved in the heart of film photographers.`,
                             },
                             {
                                 icon: leakIcon,
                                 title: `Light leaks`,
-                                description: `Light leaks make your photo pop with custom film light effects.
+                                description: `Light leaks make your photo pop with custom made film light effects.
                                 This effect can be used to make your photo look artsy and stylish.`,
                             },
                             ].map((item) => (
@@ -97,7 +135,7 @@ function IndexPage() {
                 </div>
             </div>
 
-            <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
+            <div className="pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
                 <h1 className="text-3xl m-3 font-bold">Handcrafted custom-made filters</h1>
                 <p className="text-gray-300 w-3/4 mx-auto">
                     Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts.
@@ -131,7 +169,7 @@ function IndexPage() {
                     }
                 </div>
             </div>
-        </Layout >
+        </Layout>
     );
 }
 
