@@ -38,7 +38,7 @@ function IndexPage() {
                 </div>
             </div>
 
-            <div className="mt-4">
+            {/* <div className="mt-4">
             <h1 className="font-bold text-3xl">#TakenWithKontaxCam</h1>
                 <div className="grid gap-4 grid-cols-2 md:grid-cols-3">
                     {
@@ -72,7 +72,7 @@ function IndexPage() {
                         ))
                     }
                 </div>
-            </div>
+            </div> */}
 
 
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
