@@ -101,12 +101,12 @@ function IndexPage() {
                             {
                                 icon: datestampIcon,
                                 title: `Datestamp`,
-                                description: `Allows you to add realistic film datestamp into your photo.`,
+                                description: `Allows you to add a realistic film datestamp on your photo.`,
                             },
                             {
                                 icon: dustIcon,
                                 title: `Film dust`,
-                                description: `Dust allows you to overlay your photo with real film dust.
+                                description: `This feature allows you to overlay your photo with real film dust.
                                 This effect is best used with a film/vintage filter to make
                                 it more unique.`,
                             },
@@ -138,8 +138,8 @@ function IndexPage() {
             <div className="pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
                 <h1 className="text-3xl m-3 font-bold">Handcrafted custom-made filters</h1>
                 <p className="text-gray-300 w-3/4 mx-auto">
-                    Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital cameras look.
-                    Experiment with the combination to create your own filter + effects combo!
+                    Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts.
+                    Experiment with different combinations to create your own filter and effects combo!
                 </p>
                 <p className="text-gray-300 text-sm mt-4">{`Note: Send your photo captured with a filter via email to get it featured on the collection's cover page!`}</p>
 
