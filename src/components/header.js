@@ -15,8 +15,8 @@ function Header() {
   `);
 
     return (
-        <header>
-            <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-6">
+        <nav className="sticky top-0 bg-blur">
+            <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-3">
                 <Link to="/">
                     <h1 className="flex items-center text-white no-underline">
                         <img className="border border-gray-800 h-10 w-10 rounded-lg mr-4" src={KCLogo} alt="Kontax Cam logo"/>
@@ -26,7 +26,7 @@ function Header() {
                     </h1>
                 </Link>
             </div>
-        </header>
+        </nav>
     );
 }
 
