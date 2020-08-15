@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby";
 
 export default function footer() {
     return (
@@ -22,6 +23,12 @@ export default function footer() {
                         {link.title}
                     </a>
                 ))}
+            </div>
+
+            <div className="md:block md:items-center w-full md:w-auto">
+                <Link to="/privacy-policy">
+                    Privacy policy
+                </Link>
             </div>
         </div>
     </footer>

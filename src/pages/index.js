@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import ImageShowcase from "../components/ImageShowcase"
+import ImageShowcase from "../components/imageShowcase"
 
 import image1 from "../images/image1.png"
 import colorIcon from "../images/color.icon.png"
@@ -29,7 +29,7 @@ function IndexPage() {
                         while allowing photographers to blend in digital aspects to make a unique masterpiece.
                 </p>
                     <a
-                        className="p-3 m-10 font-bold bg-blue-600 shadow-blue-600 rounded-lg inline-block"
+                        className="p-3 m-10 font-bold bg-white text-black shadow-white rounded-lg inline-block"
                         href="https://testflight.apple.com/join/MzTKHQdv"
                         target="_blank"
                         rel="noopener noreferrer">
