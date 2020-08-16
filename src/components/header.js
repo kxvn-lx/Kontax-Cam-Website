@@ -1,6 +1,5 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React from 'react';
-import styled from 'styled-components'
 
 import DetailView from "./detailView.js"
 
@@ -18,7 +17,7 @@ function Header() {
   `);
 
     return (
-        <nav className="sticky top-0 bg-blur">
+        <nav className="sticky top-0 bg-blur" style={{zIndex: '999'}}>
             <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-3">
                 <Link to="/">
                     <h1 className="flex items-center text-white no-underline">
