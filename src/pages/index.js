@@ -137,13 +137,13 @@ function IndexPage() {
 
             <div className="pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
                 <h1 className="text-3xl m-3 font-bold">Handcrafted custom-made filters</h1>
-                <p className="text-gray-300 w-3/4 mx-auto">
+                <p className="text-gray-300 md:w-3/4 mx-auto">
                     Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts.
                     Experiment with different combinations to create your own filter and effects combo!
                 </p>
                 <p className="text-gray-300 text-sm mt-4">{`Note: Send your photo captured with a filter via email to get it featured on the collection's cover page!`}</p>
 
-                <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-20">
+                <div className="grid gap-4 grid-cols-2 mt-20">
                     {
                         [{
                             title: `A Collection`,

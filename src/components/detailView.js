@@ -39,7 +39,7 @@ const PhotographersAvatar = styled.div`
 
 const HoverView = styled.div`
     position: absolute;
-    top: 50px;
+    top: 60px;
     right: 15px;
     width: 180px;
     height: 215px;
@@ -47,5 +47,6 @@ const HoverView = styled.div`
 
     @media only screen and (min-width: 768px) {
         right: 50px;
+        top: 50px
     }
 `
