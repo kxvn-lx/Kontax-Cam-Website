@@ -5,7 +5,7 @@ export default function DetailView() {
     const [isVisible, toggleVisibility] = useState(false)
 
     return (
-        <div>
+        <div className="relative">
             <PhotographersAvatar
                 onMouseEnter={() => toggleVisibility(true)}
                 onMouseLeave={() => toggleVisibility(false)}
@@ -39,14 +39,12 @@ const PhotographersAvatar = styled.div`
 
 const HoverView = styled.div`
     position: absolute;
+    right: 0px;
     top: 60px;
-    right: 15px;
     width: 180px;
     height: 215px;
-    opacity: 1;
 
     @media only screen and (min-width: 768px) {
-        right: 50px;
-        top: 50px
+        top: 32.5px;
     }
 `

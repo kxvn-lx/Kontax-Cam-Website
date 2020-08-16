@@ -52,6 +52,6 @@ const FilterNameSyle = styled.span`
     -webkit-backdrop-filter: blur(12px) saturate(50%);
     position: relative;
     top: 40px;
-    z-index: 999;
+    z-index: 1;
     left: 10px
 `

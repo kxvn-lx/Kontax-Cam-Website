@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import ImageShowcase from "../components/imageShowcase"
+import ImageShowcase from "../components/imageShowcase"
 
 import image1 from "../images/image1.png"
 import colorIcon from "../images/color.icon.png"
@@ -39,7 +39,7 @@ function IndexPage() {
             </div>
 
             {/* <div className="mt-4">
-            <h1 className="font-bold text-3xl">#TakenWithKontaxCam</h1>
+                <h1 className="font-bold text-xl md:text-2xl">#TakenWithKontaxCam</h1>
                 <div className="grid gap-4 grid-cols-2 md:grid-cols-3">
                     {
                         [
@@ -74,19 +74,18 @@ function IndexPage() {
                 </div>
             </div> */}
 
-
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
                 <div className="bg-gray-900 px-3 py-20 md:col-span-1 rounded-lg">
                     <div className="text-center mb-5 mx-auto">
-                        <h1 className="font-bold text-3xl mt-4">Your masterpiece,<br />one tap away.</h1>
-                        <p className="text-gray-300">Access all the power of Kontax Cam with just a tap.</p>
+                        <h1 className="font-bold text-2xl mt-4">Your masterpiece,<br />one tap away.</h1>
+                        <p className="text-gray-300 w-10/12 mx-auto">Access all the power of Kontax Cam with just a tap.</p>
                     </div>
                     <img className="w-10/12 h-auto mx-auto" src={image1} alt="Kontax Cam User interface" />
                 </div>
 
                 <div id="features" className="bg-gray-900 px-10 py-20 md:col-span-2 rounded-lg">
                     <div className="text-center">
-                        <h1 className="font-bold text-3xl mt-4">Carefully crafted effects</h1>
+                        <h1 className="font-bold text-2xl mt-4">Carefully crafted effects</h1>
                         <p className="text-gray-300">All of these handcrafted effects, plus more coming soon!</p>
                     </div>
 
@@ -136,7 +135,7 @@ function IndexPage() {
             </div>
 
             <div className="pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
-                <h1 className="text-3xl m-3 font-bold">Handcrafted custom-made filters</h1>
+                <h1 className="text-2xl m-3 font-bold">Handcrafted custom-made filters</h1>
                 <p className="text-gray-300 md:w-3/4 mx-auto">
                     Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts.
                     Experiment with different combinations to create your own filter and effects combo!

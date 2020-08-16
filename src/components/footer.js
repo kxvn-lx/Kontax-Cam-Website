@@ -3,26 +3,23 @@ import React from 'react'
 export default function footer() {
     return (
         <footer>
-            <div className="flex justify-between max-w-6xl p-3 mx-auto text-sm md:p-8">
-                <div className="md:block md:items-center w-full md:w-auto">
-                    {[
-                        {
-                            route: `https://www.twitter.com/kevinlx_`,
-                            title: `Twitter`,
-                        },
-                        {
-                            route: `mailto:kevinlaminto.dev@gmail.com`,
-                            title: `Email`,
-                        },
-                    ].map((link) => (
-                        <a
-                            key={link.title}
-                            className="mt-4 text-white no-underline inline-block ml-6"
-                            href={link.route} target="_blank" rel="noopener noreferrer">
-                            {link.title}
+            <div className="flex text-center max-w-6xl p-3 mx-auto text-sm md:p-8">
+                <div className="md:block md:items-center w-full">
+                    <a
+                        className="mt-4 text-white no-underline inline-block"
+                        href="https://www.twitter.com/kevinlx_" target="_blank" rel="noopener noreferrer">
+                        Twitter
                         </a>
-                    ))}
+                    <a
+                        className="mt-4 text-white no-underline inline-block ml-6"
+                        href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">
+                        Email
+                        </a>
                 </div>
+            </div>
+
+            <div className="text-center mb-4 text-sm">
+                <p className="text-gray-500">© {new Date().getFullYear()} Kontax Cam </p>
             </div>
         </footer>
     )
