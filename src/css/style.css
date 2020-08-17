@@ -8,6 +8,10 @@ html {
     background-color: black;
 }
 
+button, button:focus {
+    outline: none;
+}
+
 img {
     user-drag: none;
     user-select: none;

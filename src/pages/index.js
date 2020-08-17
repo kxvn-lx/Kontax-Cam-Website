@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import styled from "styled-components"
+import Modal from "../templates/kontaxModal/kontaxModal"
 // import ImageShowcase from "../components/imageShowcase"
 
 import image1 from "../images/image1.png"
@@ -11,8 +11,10 @@ import dustIcon from "../images/dust.icon.png"
 import grainIcon from "../images/grain.icon.png"
 import leakIcon from "../images/leak.icon.png"
 import datestampIcon from "../images/calendar.icon.png"
+import barcodeSVG from "../images/barcodeSVG.svg"
 
 function IndexPage() {
+
     return (
         <Layout>
             <SEO
@@ -35,8 +37,15 @@ function IndexPage() {
                         target="_blank"
                         rel="noopener noreferrer">
                         Join the Beta
-                </a>
+                    </a>
                 </div>
+
+                <Modal modalTitle="Or scan the barcode">
+                    <div className="w-3/4">
+                        <img className="h-40 w-40 rounded-lg" src={barcodeSVG} alt="Kontax Cam barcode" />
+                        <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
+                    </div>
+                </Modal>
             </div>
 
             {/* <div className="mt-4">
