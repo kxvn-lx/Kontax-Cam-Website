@@ -43,6 +43,7 @@ const HoverView = styled.div`
     top: 60px;
     width: 180px;
     height: 215px;
+    transition: all 0.25s ease-in-out;
 
     @media only screen and (min-width: 768px) {
         top: 32.5px;

@@ -2,6 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import styled from "styled-components"
 // import ImageShowcase from "../components/imageShowcase"
 
 import image1 from "../images/image1.png"
@@ -19,7 +20,7 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
+            <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
                     <span className="bg-gray-800 rounded-full p-3 font-bold" >Coming soon</span>
                     <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
@@ -124,7 +125,7 @@ function IndexPage() {
                             },
                             ].map((item) => (
                                 <div key={item.title} className="rounded-lg grid p-4 max-w-xs mx-auto" >
-                                    <img className="h-16 w-16" src={item.icon} alt={item.title + " icon"} />
+                                    <img className="h-12 w-12" src={item.icon} alt={item.title + " icon"} />
                                     <h3 className="font-bold text-xl">{item.title}</h3>
                                     <p className="text-gray-300">{item.description}</p>
                                 </div>
