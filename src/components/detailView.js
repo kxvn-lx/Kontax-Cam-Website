@@ -18,7 +18,7 @@ export default function DetailView() {
                 onMouseLeave={() => toggleVisibility(false)}
                 className={
                     `${isVisible ? `block` : `hidden`}
-                flex justify-center flex-wrap items-start content-start pt-4 rounded-lg bg-gray-800`
+                flex justify-center flex-wrap items-start content-start pt-4 rounded-lg border border-gray-900`
                 }>
                 <PhotographersAvatar className="h-12 w-12 justify-center flex items-center rounded-full text-3xl">
                     <span>📸</span>
@@ -44,6 +44,9 @@ const HoverView = styled.div`
     width: 180px;
     height: 215px;
     transition: all 0.25s ease-in-out;
+    backdrop-filter: blur(12px) saturate(100%);
+    -webkit-backdrop-filter: blur(12px) saturate(100%);
+    background-color: rgba(0,0,0,0.5);
 
     @media only screen and (min-width: 768px) {
         top: 32.5px;
