@@ -23,8 +23,9 @@ export default function footer() {
                 </div>
             </div>
 
-            <div className="text-center mb-4 text-sm">
-                <p className="text-gray-500">© {new Date().getFullYear()} Kontax Cam </p>
+            <div className="flex max-w-6xl mx-auto mb-4 text-sm justify-between text-gray-500">
+                <p>© Kontax Cam</p>
+                <p>Made in Melbourne, Australia.</p>
             </div>
         </footer>
     )

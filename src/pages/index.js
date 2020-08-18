@@ -22,9 +22,9 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <div className="rounded-lg pt-32 xl:py-12 xl:px-8 text-center">
+            <div className="pt-32 xl:py-12 xl:px-8 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
-                    <span className="bg-gray-800 rounded-full p-3 font-bold" >Coming soon</span>
+                    <span className="border border-gray-500 text-gray-500 rounded-full p-3">Coming soon</span>
                     <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
                     <p className="text-gray-300 w-3/4 mx-auto">
                         Minimalist instant camera app optimised for any iOS device.

@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout";
+import "../css/markdown-styles.css"
 
 export default function Template({ data }) {
     const post = data.markdownRemark
