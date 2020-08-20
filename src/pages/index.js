@@ -5,14 +5,6 @@ import SEO from "../components/seo";
 import Modal from "../templates/kontaxModal/kontaxModal"
 // import ImageShowcase from "../components/imageShowcase"
 
-import image1 from "../images/image1.png"
-import colorIcon from "../images/color.icon.png"
-import dustIcon from "../images/dust.icon.png"
-import grainIcon from "../images/grain.icon.png"
-import leakIcon from "../images/leak.icon.png"
-import datestampIcon from "../images/calendar.icon.png"
-import barcodeSVG from "../images/barcodeSVG.svg"
-
 function IndexPage() {
 
     return (
@@ -42,7 +34,7 @@ function IndexPage() {
 
                 <Modal modalTitle="Or scan the barcode">
                     <div className="w-3/4">
-                        <img className="h-40 w-40 rounded-lg" src={barcodeSVG} alt="Kontax Cam barcode" />
+                        <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
                         <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
                     </div>
                 </Modal>
@@ -90,7 +82,7 @@ function IndexPage() {
                         <h1 className="font-bold text-2xl mt-4">Your masterpiece,<br />one tap away.</h1>
                         <p className="text-gray-300 w-10/12 mx-auto">Access all the power of Kontax Cam with just a tap.</p>
                     </div>
-                    <img className="w-10/12 h-auto mx-auto" src={image1} alt="Kontax Cam User interface" />
+                    <img className="w-10/12 h-auto mx-auto" src={require("../images/image1.png")} alt="Kontax Cam User interface" />
                 </div>
 
                 <div id="features" className="bg-gray-900 px-10 py-20 md:col-span-2 rounded-lg">
@@ -102,32 +94,32 @@ function IndexPage() {
                     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-20">
                         {
                             [{
-                                icon: colorIcon,
+                                icon: require("../images/color.icon.png"),
                                 title: `Colour leaks`,
                                 description: `Colour leaks add a gorgeous film colour overlay on your photo. 
                                 Currently, Kontax Cam provides three different colours: red, green, and blue.`,
                             },
                             {
-                                icon: datestampIcon,
+                                icon: require("../images/calendar.icon.png"),
                                 title: `Datestamp`,
                                 description: `Allows you to add a realistic film datestamp on your photo.`,
                             },
                             {
-                                icon: dustIcon,
+                                icon: require("../images/dust.icon.png"),
                                 title: `Film dust`,
                                 description: `This feature allows you to overlay your photo with real film dust.
                                 This effect is best used with a film/vintage filter to make
                                 it more unique.`,
                             },
                             {
-                                icon: grainIcon,
+                                icon: require("../images/grain.icon.png"),
                                 title: `Film grain`,
                                 description: `Grain makes your photo looks sharp, scratched and old school!
                                 Although ecessive use might render the photo overly sharpened.,
                                 grain is beloved in the heart of film photographers.`,
                             },
                             {
-                                icon: leakIcon,
+                                icon: require("../images/leak.icon.png"),
                                 title: `Light leaks`,
                                 description: `Light leaks make your photo pop with custom made film light effects.
                                 This effect can be used to make your photo look artsy and stylish.`,
