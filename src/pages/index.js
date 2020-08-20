@@ -5,6 +5,8 @@ import SEO from "../components/seo";
 import Modal from "../templates/kontaxModal/kontaxModal"
 // import ImageShowcase from "../components/imageShowcase"
 
+import "../css/animation.css"
+
 function IndexPage() {
 
     return (
@@ -14,7 +16,7 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <div className="pt-32 xl:py-12 xl:px-8 text-center">
+            <div id="hero" className="pt-32 xl:py-12 xl:px-8 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
                     <span className="border border-gray-500 text-gray-500 rounded-full p-3">Coming soon</span>
                     <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
@@ -76,7 +78,7 @@ function IndexPage() {
                 </div>
             </div> */}
 
-            <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
+            <div id="feature" className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
                 <div className="bg-gray-900 px-3 py-20 md:col-span-1 rounded-lg">
                     <div className="text-center mb-5 mx-auto">
                         <h1 className="font-bold text-2xl mt-4">Your masterpiece,<br />one tap away.</h1>
