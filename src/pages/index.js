@@ -1,11 +1,10 @@
 import React from "react";
+import styled from 'styled-components'
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Modal from "../templates/kontaxModal/kontaxModal"
 // import ImageShowcase from "../components/imageShowcase"
-
-import "../css/animation.css"
 
 function IndexPage() {
 
@@ -16,15 +15,17 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <div id="hero" className="pt-32 xl:py-12 xl:px-8 text-center">
+            <div className="pt-32 xl:py-12 xl:px-8 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
                     <span className="border border-gray-500 text-gray-500 rounded-full p-3">Coming soon</span>
-                    <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
+                    <GradientBackground>
+                        <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
+                    </GradientBackground>
                     <p className="text-gray-300 w-3/4 mx-auto">
                         Minimalist instant camera app optimised for any iOS device.
                         Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
                         while allowing photographers to blend in digital aspects to make a unique masterpiece.
-                </p>
+                    </p>
                     <a
                         className="p-3 m-10 font-bold bg-white text-black shadow-white rounded-lg inline-block"
                         href="https://testflight.apple.com/join/MzTKHQdv"
@@ -78,7 +79,7 @@ function IndexPage() {
                 </div>
             </div> */}
 
-            <div id="feature" className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
+            <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-10">
                 <div className="bg-gray-900 px-3 py-20 md:col-span-1 rounded-lg">
                     <div className="text-center mb-5 mx-auto">
                         <h1 className="font-bold text-2xl mt-4">Your masterpiece,<br />one tap away.</h1>
@@ -177,3 +178,13 @@ function IndexPage() {
 }
 
 export default IndexPage;
+
+const GradientBackground = styled.div`
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+`
