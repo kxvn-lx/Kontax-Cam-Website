@@ -96,38 +96,7 @@ function IndexPage() {
 
                     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-20">
                         {
-                            [{
-                                icon: require("../images/color.icon.png"),
-                                title: `Colour leaks`,
-                                description: `Colour leaks add a gorgeous film colour overlay on your photo. 
-                                Currently, Kontax Cam provides three different colours: red, green, and blue.`,
-                            },
-                            {
-                                icon: require("../images/calendar.icon.png"),
-                                title: `Datestamp`,
-                                description: `Allows you to add a realistic film datestamp on your photo.`,
-                            },
-                            {
-                                icon: require("../images/dust.icon.png"),
-                                title: `Film dust`,
-                                description: `This feature allows you to overlay your photo with real film dust.
-                                This effect is best used with a film/vintage filter to make
-                                it more unique.`,
-                            },
-                            {
-                                icon: require("../images/grain.icon.png"),
-                                title: `Film grain`,
-                                description: `Grain makes your photo looks sharp, scratched and old school!
-                                Although ecessive use might render the photo overly sharpened.,
-                                grain is beloved in the heart of film photographers.`,
-                            },
-                            {
-                                icon: require("../images/leak.icon.png"),
-                                title: `Light leaks`,
-                                description: `Light leaks make your photo pop with custom made film light effects.
-                                This effect can be used to make your photo look artsy and stylish.`,
-                            },
-                            ].map((item) => (
+                            effectsList.map((item) => (
                                 <div key={item.title} className="rounded-lg grid p-4 max-w-xs mx-auto" >
                                     <img className="h-12 w-12" src={item.icon} alt={item.title + " icon"} />
                                     <h3 className="font-bold text-xl">{item.title}</h3>
@@ -149,22 +118,7 @@ function IndexPage() {
 
                 <div className="grid gap-4 grid-cols-2 mt-20">
                     {
-                        [{
-                            title: `A Collection`,
-                        },
-                        {
-                            title: `B Collection`,
-                        },
-                        {
-                            title: `C Collection`,
-                        },
-                        {
-                            title: `BW Collection`,
-                        },
-                        {
-                            title: `+ more in the future!`,
-                        },
-                        ].map((item) => (
+                        filtersList.map((item) => (
                             <div key={item.title} className="rounded-lg grid p-4 max-w-xs mx-auto" style={{ justifyItems: 'center' }}>
                                 <span className="p-2 mb-5 w-16 rounded-full bg-gray-900 font-bold">{item.title.split(" ")[0]}</span>
                                 <h3 className="font-bold text-xl">{item.title}</h3>
@@ -179,12 +133,69 @@ function IndexPage() {
 
 export default IndexPage;
 
+// Styled Components
 const GradientBackground = styled.div`
-    background: #A770EF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
+    h1 {
+        color: #3494E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 `
+
+// Datasource
+const filtersList = (
+    [{
+        title: `A Collection`,
+    },
+    {
+        title: `B Collection`,
+    },
+    {
+        title: `HUE1 Collection`,
+    },
+    {
+        title: `BW Collection`,
+    },
+    {
+        title: `+ more in the future!`,
+    },
+    ]
+)
+
+const effectsList = (
+    [{
+        icon: require("../images/color.icon.png"),
+        title: `Colour leaks`,
+        description: `Colour leaks add a gorgeous film colour overlay on your photo. 
+        Currently, Kontax Cam provides three different colours: red, green, and blue.`,
+    },
+    {
+        icon: require("../images/calendar.icon.png"),
+        title: `Datestamp`,
+        description: `Allows you to add a realistic film datestamp on your photo.`,
+    },
+    {
+        icon: require("../images/dust.icon.png"),
+        title: `Film dust`,
+        description: `This feature allows you to overlay your photo with real film dust.
+        This effect is best used with a film/vintage filter to make
+        it more unique.`,
+    },
+    {
+        icon: require("../images/grain.icon.png"),
+        title: `Film grain`,
+        description: `Grain makes your photo looks sharp, scratched and old school!
+        Although ecessive use might render the photo overly sharpened.,
+        grain is beloved in the heart of film photographers.`,
+    },
+    {
+        icon: require("../images/leak.icon.png"),
+        title: `Light leaks`,
+        description: `Light leaks make your photo pop with custom made film light effects.
+        This effect can be used to make your photo look artsy and stylish.`,
+    },
+    ]
+)

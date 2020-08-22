@@ -1,17 +1,19 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
-export default function DetailView() {
+export default function DetailView(props) {
     const [isVisible, toggleVisibility] = useState(false)
 
     return (
-        <div className="relative">
-            <PhotographersAvatar
+        <div className="relative" style={props.emoji != '📸' ? { marginRight: '-10px' } : { marginRight: '0' }}>
+            <AvatarWrapper
+                style={props.avatarStyle}
                 onMouseEnter={() => toggleVisibility(true)}
                 onMouseLeave={() => toggleVisibility(false)}
                 className="h-8 w-8 justify-center flex items-center rounded-full text-xl">
-                <span>📸</span>
-            </PhotographersAvatar>
+                <span>{props.emoji}</span>
+            </AvatarWrapper>
 
             <HoverView
                 onMouseEnter={() => toggleVisibility(true)}
@@ -20,18 +22,24 @@ export default function DetailView() {
                     `${isVisible ? `block` : `hidden`}
                 flex justify-center flex-wrap items-start content-start pt-4 rounded-lg border border-gray-900`
                 }>
-                <PhotographersAvatar className="h-12 w-12 justify-center flex items-center rounded-full text-3xl">
-                    <span>📸</span>
-                </PhotographersAvatar>
-                <p className="text-center mt-3 w-3/4 text-xs text-gray-300">Submit your #TakenWithKontaxCam photo so that we can feature you!</p>
-                <a className="mt-4 border-white text-white border py-1 px-2 rounded-lg text-sm" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] #TakenWithKontaxCam&body=This photo is taken with *insert the filter used here*.">Email photo</a>
+                <AvatarWrapper className="h-12 w-12 justify-center flex items-center rounded-full text-3xl" style={props.avatarStyle}>
+                    <span>{props.emoji}</span>
+                </AvatarWrapper>
+                {props.children}
             </HoverView>
         </div>
     )
 }
 
-const PhotographersAvatar = styled.div`
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+DetailView.propTypes = {
+    emoji: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+    avatarStyle: PropTypes.style
+}
+
+const AvatarWrapper = styled.div`
+    box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0, 0, 0, 1);
+
     span {
         pointer-events: none;
     }
