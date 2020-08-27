@@ -1,4 +1,5 @@
 import React from 'react'
+import styled, { keyframes } from 'styled-components'
 
 export default function footer() {
     return (
@@ -26,9 +27,20 @@ export default function footer() {
             <div className="mb-10 text-sm text-gray-500 text-center block">
                 <ul>
                     <li>© Kontax Cam</li>
-                    <li>Made in Melbourne, Australia.</li>
+                    <DownUnderWraper><span className="inline-block">Made in Melbourne, Australia.</span></DownUnderWraper>
                 </ul>
             </div>
         </footer>
     )
 }
+
+const DownUnderWraper = styled.li`
+    span {
+        transform: rotate(180deg);
+        transition: 0.5s ease-in-out;
+
+        &:hover {
+            transform: rotate(0deg);
+        }
+    }
+`
