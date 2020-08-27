@@ -34,6 +34,7 @@ function Header() {
 
                     <DetailView emoji="📸" avatarStyle={TakenWithKontaxWrapperStyles}>
                         <p className="text-center mt-3 w-3/4 text-xs text-gray-300">Submit your #TakenWithKontaxCam photo so that we can feature you!</p>
+                        <p className="text-center mt-3 w-3/4 text-xs text-gray-300">Please upload the photo along with the filter used.</p>
                         <a className="mt-4 border-white text-white border py-1 px-2 rounded-lg text-sm" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] #TakenWithKontaxCam&body=This photo is taken with *insert the filter used here*." target="_blank" rel="noopener noreferrer">Email photo</a>
                     </DetailView>
                 </div>

@@ -20,7 +20,7 @@ export default function DetailView(props) {
                 onMouseLeave={() => toggleVisibility(false)}
                 className={
                     `${isVisible ? `block` : `hidden`}
-                flex justify-center flex-wrap items-start content-start pt-4 rounded-lg border border-gray-900`
+                    flex justify-center flex-wrap items-start content-start pt-4 rounded-lg border border-gray-900 pb-4`
                 }>
                 <AvatarWrapper className="h-12 w-12 justify-center flex items-center rounded-full text-3xl" style={props.avatarStyle}>
                     <span>{props.emoji}</span>
@@ -50,7 +50,7 @@ const HoverView = styled.div`
     right: 0px;
     top: 60px;
     width: 180px;
-    height: 215px;
+    height: auto;
     transition: all 0.25s ease-in-out;
     backdrop-filter: blur(12px) saturate(100%);
     -webkit-backdrop-filter: blur(12px) saturate(100%);

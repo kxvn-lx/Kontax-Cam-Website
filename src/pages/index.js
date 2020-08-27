@@ -136,11 +136,8 @@ export default IndexPage;
 // Styled Components
 const GradientBackground = styled.div`
     h1 {
-        background: #EC6F66;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
