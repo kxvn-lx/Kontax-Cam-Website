@@ -19,9 +19,9 @@ function IndexPage() {
             <div className="pt-32 xl:py-12 xl:px-8 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
                     <span className="border border-gray-500 text-gray-500 rounded-full p-3">Coming soon</span>
-                    <GradientBackground>
-                        <h1 className="lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
-                    </GradientBackground>
+                    <div>
+                        <h1 className="fluid lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
+                    </div>
                     <p className="text-gray-300 w-3/4 mx-auto">
                         Minimalist instant camera app optimised for any iOS device.
                         Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
@@ -95,15 +95,6 @@ function IndexPage() {
 export default IndexPage;
 
 // Styled Components
-const GradientBackground = styled.div`
-    h1 {
-        background-color: #4158D0;
-        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-`
 
 // Datasource
 const showcaseList = (

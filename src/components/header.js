@@ -27,6 +27,11 @@ function Header() {
                 </Link>
 
                 <div className="flex">
+                    <DetailView emoji="✍️" avatarStyle={SurveyFromWrapperStyles}>
+                        <p className="text-center mt-3 w-3/4 text-xs text-gray-300">Help make Kontax Cam better by filling out the feedback survey form.</p>
+                        <a className="mt-4 border-white text-white border py-1 px-2 rounded-lg text-sm" href="https://kontaxcam.typeform.com/to/RDApdKEH" target="_blank" rel="noopener noreferrer">Fill survey</a>
+                    </DetailView>
+
                     <DetailView emoji="👨‍💻" avatarStyle={WorkWithUsWrapperStyles}>
                         <p className="text-center mt-3 w-3/4 text-xs text-gray-300">Interested in photography and willing to help out?</p>
                         <a className="mt-4 border-white text-white border py-1 px-2 rounded-lg text-sm" href="https://github.com/kxvn-lx/Kontax-Cam" target="_blank" rel="noopener noreferrer">Contribute on Github</a>
@@ -51,4 +56,8 @@ const TakenWithKontaxWrapperStyles = {
 
 const WorkWithUsWrapperStyles = {
     'backgroundImage': 'linear-gradient(120deg, #f6d365 0%, #fda085 100%)'
+}
+
+const SurveyFromWrapperStyles = {
+    'backgroundImage': 'linear-gradient(120deg, #f093fb 0%, #f5576c 100%)'
 }

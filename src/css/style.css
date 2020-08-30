@@ -8,7 +8,8 @@ html {
     background-color: black;
 }
 
-button, button:focus {
+button,
+button:focus {
     outline: none;
 }
 
@@ -31,3 +32,26 @@ img {
     -webkit-backdrop-filter: blur(12px) saturate(100%);
 }
 
+.fluid {
+    animation: flow 5s ease-in-out infinite;
+    background-color: #4158d0;
+    background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    background-size: 250%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes flow {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
