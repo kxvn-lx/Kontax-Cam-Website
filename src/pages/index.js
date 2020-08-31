@@ -1,5 +1,4 @@
 import React from "react";
-import styled from 'styled-components'
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -63,7 +62,7 @@ function IndexPage() {
 
             <div className="mt-10 md:mt-40 border border-gray-500 w-full h-px" />
 
-            <div className="mt-10 md:mt-40">
+            <div className="mt-20 md:mt-40">
                 <h1 className="font-bold text-2xl">Features</h1>
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-10 mt-4">
                     {
@@ -78,6 +77,30 @@ function IndexPage() {
                 </div>
             </div>
 
+            <div className="mt-20 md:mt-40">
+                <div className="md:w-3/6">
+                    <h1 className="font-bold text-2xl">Think you can help improve Kontax Cam?</h1>
+                    <p className="text-gray-300">
+                        By contributing to open-source software, not only benefits you, but it also benefits the whole society. 
+                        This can be a one-time thing, contribute something and done, or a recurring thing. Whatever it is, it's your choice. You control your own decision.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                    {
+                        helpList.map(item => (
+                            <div key={item.title} className="flex justify-between py-2 px-4">
+                                <span className="text-3xl mr-4">{item.emoji}</span>
+                                <div>
+                                    <h3 className="font-bold">{item.title}</h3>
+                                    <p className="text-gray-300">{item.description}</p>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+
             <div className="text-center mt-20">
                 <a
                     className="p-3 m-10 font-bold bg-white text-black shadow-white rounded-lg inline-block"
@@ -85,7 +108,7 @@ function IndexPage() {
                     target="_blank"
                     rel="noopener noreferrer">
                     Join the Beta
-                    </a>
+                </a>
             </div>
 
         </Layout>
@@ -145,6 +168,38 @@ const featureList = (
             iconName: 'accessibility-human.svg',
             title: 'Gestured-based',
             description: `Kontax Cam is designed for human. Hence your masterpiece - is just but a tap and swipe away.`
+        }
+    ]
+)
+
+const helpList = (
+    [
+        {
+            emoji: '🎨',
+            title: 'Graphic designer',
+            description: `Kontax Cam relies on stock icons for now. If you think you can help with this, that'd be great!`
+        },
+        {
+            emoji: '👨‍💻👩‍💻',
+            title: 'iOS Developer',
+            description: `Kontax Cam is fully optimised for iOS. If you think you can improve the app, add a new feature, or anything,
+            please feel free to shoot me an email!`
+        },
+        {
+            emoji: '📸',
+            title: 'Photographer',
+            description: `Are you in love with taking photos and appreciates art? You can contribute to Kontax Cam by submitting your photo taken
+            with Kontax Cam.`
+        },
+        {
+            emoji: '📱',
+            title: 'UI/UX Designer',
+            description: `If you love designing not only aesthetically pleasing user interface but also a great user experience, please hop on board!`
+        },
+        {
+            emoji: '👀',
+            title: 'Your own role',
+            description: `Want to help with your unique skills but not listed here? fear not! Just shoot me an email`
         }
     ]
 )

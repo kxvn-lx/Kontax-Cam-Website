@@ -8,8 +8,18 @@ date: "31-08-2020"
     <img src="https://i.ibb.co/C7RCP8W/changelog-background.jpg" alt="Changelog background">
 </div>
 <h1 align="center">
-  Change-log
+  Change log
 </h1>
+
+### Notice board
+- Since I don't possess a triple lens device, I couldn't test the lens feature fully. So users who own said devices MIGHT experience an issue. Will try to fix it ASAP.
+
+### 1.0(9)
+**Changes**
+- Changed default placeholder widget image
+
+**Fixes**
+- Fixed Widget not displaying on some devices.
 
 ### 1.0(8)
 **Changes**
