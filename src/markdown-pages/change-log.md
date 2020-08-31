@@ -1,6 +1,6 @@
 ---
-path: "/changelog"
-title: "Changelog"
+path: "/change-log"
+title: "Change-log"
 date: "31-08-2020"
 ---
 
@@ -8,7 +8,7 @@ date: "31-08-2020"
     <img src="https://i.ibb.co/C7RCP8W/changelog-background.jpg" alt="Changelog background">
 </div>
 <h1 align="center">
-  Changelog
+  Change-log
 </h1>
 
 ### 1.0(8)
