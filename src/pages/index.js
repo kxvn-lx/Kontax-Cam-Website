@@ -81,8 +81,11 @@ function IndexPage() {
                 <div className="md:w-3/6">
                     <h1 className="font-bold text-2xl">Think you can help improve Kontax Cam?</h1>
                     <p className="text-gray-300">
-                        By contributing to open-source software, not only benefits you, but it also benefits the whole society. 
+                        By contributing to open-source software, not only benefits you, but it also benefits the whole society.
                         This can be a one-time thing, contribute something and done, or a recurring thing. Whatever it is, it's your choice. You control your own decision.
+                    </p>
+                    <p className="mt-4">
+                        <a className="text-white" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email</a>
                     </p>
                 </div>
 
