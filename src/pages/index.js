@@ -35,7 +35,7 @@ function IndexPage() {
                     </a>
                 </div>
 
-                <Modal modalTitle="Or scan the barcode">
+                <Modal modalTitle="Or scan the barcode →">
                     <div className="w-3/4">
                         <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
                         <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
@@ -85,7 +85,7 @@ function IndexPage() {
                         This can be a one-time thing, contribute something and done, or a recurring thing. Whatever it is, it's your choice. You control your own decision.
                     </p>
                     <p className="mt-4">
-                        <a className="text-white" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email</a>
+                        <a className="text-white" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email →</a>
                     </p>
                 </div>
 
@@ -120,7 +120,7 @@ function IndexPage() {
 
 export default IndexPage;
 
-// Styled Components
+// Styled Componentsmes
 
 // Datasource
 const showcaseList = (
@@ -152,7 +152,7 @@ const showcaseList = (
 const featureList = (
     [
         {
-            iconName: 'search.svg',
+            iconName: 'aperture.svg',
             title: 'Multiple lens support',
             description: `If your iPhone supports the telephoto or wide-angle lens, Kontax Cam is smart enough to enable you to utilise them to its extend.`
         },
@@ -171,6 +171,16 @@ const featureList = (
             iconName: 'accessibility-human.svg',
             title: 'Gestured-based',
             description: `Kontax Cam is designed for human. Hence your masterpiece - is just but a tap and swipe away.`
+        },
+        {
+            iconName: 'widget.svg',
+            title: 'iOS 14 Widget',
+            description: `Kontax Cam supports iOS 14 widgets by showcasing your beautiful masterpiece into your homescreen, directly from your lab.`
+        },
+        {
+            iconName: 'volume.svg',
+            title: 'Volume button trigger',
+            description: `Tired of pressing the big ol' shutter button? Kontax Cam allows you to snap your masterpiece by just pressing the volume up/down button.`
         }
     ]
 )
