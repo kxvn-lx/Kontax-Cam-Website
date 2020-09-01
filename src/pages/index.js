@@ -35,7 +35,7 @@ function IndexPage() {
                     </a>
                 </div>
 
-                <Modal modalTitle="Or scan the barcode →">
+                <Modal modalTitle="Or scan the barcode">
                     <div className="w-3/4">
                         <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
                         <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
@@ -85,7 +85,8 @@ function IndexPage() {
                         This can be a one-time thing, contribute something and done, or a recurring thing. Whatever it is, it's your choice. You control your own decision.
                     </p>
                     <p className="mt-4">
-                        <a className="text-white" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email →</a>
+                        <a className="text-white mr-4" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email →</a>
+                        <a className="text-white" href="https://github.com/kxvn-lx/Kontax-Cam" target="_blank" rel="noopener noreferrer">Github →</a>
                     </p>
                 </div>
 
