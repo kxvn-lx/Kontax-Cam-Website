@@ -17,11 +17,11 @@ date: "31-08-2020"
 ### 1.0(10)
 **Changes**
 - In app purchases implemented 🙌
-- Long press on any effects will now play a little animation to signify there's action. (Effects need to be active in order to ed customise it)
+- Long press on any effects will now play a little animation to signify there's action. (Effects need to be active in order to customise it)
 - The way some screens are presented is now changed to improve its performance. Functionality remains.
 
 **Fixes**
-- Volume button trigger now works normally outside the camera screen. (To change volume instead of take photo)-
+- Volume button trigger now works normally outside the camera screen. (To change volume instead of take photo)
 - Improved multi-lens feature.
 
 ### 1.0(9)
