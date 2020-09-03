@@ -24,8 +24,6 @@ date: "31-08-2020"
 - Volume button trigger now works normally outside the camera screen. (To change volume instead of take photo)-
 - Improved multi-lens feature.
 
-**Fixes**
-
 ### 1.0(9)
 **Changes**
 - Changed default placeholder widget image
