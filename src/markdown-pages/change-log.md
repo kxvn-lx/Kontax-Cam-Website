@@ -14,6 +14,18 @@ date: "31-08-2020"
 ### Notice board
 - Since I don't possess a triple lens device, I couldn't test the lens feature fully. So users who own said devices MIGHT experience an issue. Will try to fix it ASAP.
 
+### 1.0(10)
+**Changes**
+- In app purchases implemented 🙌
+- Long press on any effects will now play a little animation to signify there's action. (Effects need to be active in order to ed customise it)
+- The way some screens are presented is now changed to improve its performance. Functionality remains.
+
+**Fixes**
+- Volume button trigger now works normally outside the camera screen. (To change volume instead of take photo)-
+- Improved multi-lens feature.
+
+**Fixes**
+
 ### 1.0(9)
 **Changes**
 - Changed default placeholder widget image

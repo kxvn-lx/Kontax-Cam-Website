@@ -1,11 +1,11 @@
 ---
 path: "/privacy-policy"
 title: "Privacy Policy"
-date: "15-08-2020"
+date: "3-09-2020"
 ---
 
 # Privacy Policy
-Last modified: **16 August 2020**
+Last modified: **3 September 2020**
 
 
 ### General
@@ -22,7 +22,7 @@ Kontax Cam only needs access to your camera library to save the photo, and your 
 Kontax Cam collects basic analytics information such as the number of users, the devices they used for Kontax Cam, and which screens they visit the most.
 
 ### How we collect the information
-Just like any other platform, we collect your information from Apple, via the app store.
+Just like any other iOS applications, we collect your information from Apple, via the app store.
 
 ### How we use your information
 By having your information, we can further improve the app based on the analytics. We can also fix any bugs or issues by looking at the analytics.
