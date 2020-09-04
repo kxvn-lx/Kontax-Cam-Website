@@ -1,7 +1,7 @@
 ---
 path: "/change-log"
 title: "Change-log"
-date: "31-08-2020"
+date: "4-09-2020"
 ---
 
 <div align="center">
@@ -12,7 +12,15 @@ date: "31-08-2020"
 </h1>
 
 ### Notice board
-- Since I don't possess a triple lens device, I couldn't test the lens feature fully. So users who own said devices MIGHT experience an issue. Will try to fix it ASAP.
+- Since I don't possess a triple lens device, I couldn't test the lens feature fully. So users who own said devices MIGHT experience an issue. please test this feature thoroughly.
+
+### 1.0(11)
+**Changes**
+- Filter info layout is now full-screen
+- Images layout is now scale to fit to match the aesthetic of the app
+
+**Fixes**
+- Volume button to take photos not working on some devices
 
 ### 1.0(10)
 **Changes**
