@@ -14,7 +14,12 @@ date: "4-09-2020"
 ### Notice board
 - Since I don't possess a triple lens device / one lens device, I couldn't test the lens feature fully. So users who own said devices MIGHT experience an issue. please test this feature thoroughly.
 
-### 
+###  1.0(12)
+**Changes**
+- none
+  
+**Fixes**
+- Fixed lens feature causing crash on single lens devices (iPhone XR, etc)
 
 ### 1.0(11)
 **Changes**
