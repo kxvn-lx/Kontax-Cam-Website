@@ -16,6 +16,7 @@ date: "4-09-2020"
 
 ### 1.0(11)
 **Changes**
+- Added loading screen on IAP to prevent unwanted actions
 - Filter info layout is now full-screen
 - Images layout is now scale to fit to match the aesthetic of the app
 
