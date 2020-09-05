@@ -1,5 +1,4 @@
 import React from "react";
-import { LikeButton } from "@lyket/react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -115,15 +114,6 @@ function IndexPage() {
                     Join the Beta
                 </a>
             </div>
-
-            <div className="text-center">
-                <LikeButton
-                    id="is-kontax-awesome"
-                    namespace="feedback"
-                    theme={LikeButton.themes.Twitter}
-                />
-            </div>
-
 
         </Layout>
     );

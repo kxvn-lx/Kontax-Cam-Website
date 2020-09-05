@@ -17,6 +17,10 @@ date: "4-09-2020"
 ### 1.0(13)
 **Changes**
 - Filter info screen will now shows if a collection has been purchased or not instead of nothing
+- Minor UI changes to filter info screen
+- Icons are now more pixel-optimised.
+- All table-view screens are now grouped instead of inset-grouped.
+- Reduced amount of views with rounded-corners.
 
 **Fixes**
 - Fix restore purchase not working
