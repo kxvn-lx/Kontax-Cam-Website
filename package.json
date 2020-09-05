@@ -4,6 +4,7 @@
   "version": "4.0.0",
   "author": "Kevin Laminto <kevinlaminto.dev@gmail.com>",
   "dependencies": {
+    "@lyket/react": "0.0.8",
     "babel-plugin-styled-components": "^1.11.1",
     "eslint-config-standard-react": "^9.2.0",
     "gatsby": "2.24.37",

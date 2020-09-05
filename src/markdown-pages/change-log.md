@@ -14,6 +14,14 @@ date: "4-09-2020"
 ### Notice board
 - Since I don't possess a triple lens device / one lens device, I couldn't test the lens feature fully. So users who own said devices MIGHT experience an issue. please test this feature thoroughly.
 
+### 1.0(13)
+**Changes**
+- Filter info screen will now shows if a collection has been purchased or not instead of nothing
+
+**Fixes**
+- Fix restore purchase not working
+- extra lens label appearing on camera switch
+
 ###  1.0(12)
 **Changes**
 - none
