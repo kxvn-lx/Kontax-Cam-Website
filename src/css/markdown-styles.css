@@ -88,3 +88,10 @@
 .markdown :not(pre) > code.language-text {
     white-space: pre-line;
 }
+
+.markdown hr {
+    opacity: 0.2;
+    border: 1px solid #8E8E93;
+    width: 20px;
+    margin: 40px 0;
+}
