@@ -27,7 +27,7 @@ function IndexPage() {
                         while allowing photographers to blend in digital aspects to make a unique masterpiece.
                     </p>
                     <a
-                        className="p-3 m-10 font-bold bg-white text-black shadow-white rounded-lg inline-block"
+                        className="px-6 py-3 m-10 font-bold bg-white text-black rounded-sm inline-block"
                         href="https://testflight.apple.com/join/MzTKHQdv"
                         target="_blank"
                         rel="noopener noreferrer">
@@ -107,7 +107,7 @@ function IndexPage() {
 
             <div className="text-center mt-20">
                 <a
-                    className="p-3 m-10 font-bold bg-white text-black shadow-white rounded-lg inline-block"
+                    className="px-6 py-3 m-10 font-bold bg-white text-black rounded-sm inline-block"
                     href="https://testflight.apple.com/join/MzTKHQdv"
                     target="_blank"
                     rel="noopener noreferrer">
