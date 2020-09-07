@@ -11,6 +11,17 @@ date: "4-09-2020"
   Change log
 </h1>
 
+### 1.0(14)
+**Changes**
+- Added shake to send bug feature. Now you can share any bugs you found instantly and easier!
+- Added analytics tool
+- Filter info screen is back - since people are still confused how to customise it or what is '...'
+
+**Fixes**
+- Fixed FX screen crashing on iOS 13 devices
+
+---
+
 ### 1.0(13)
 **Changes**
 - Filter info screen will now shows if a collection has been purchased or not instead of nothing
