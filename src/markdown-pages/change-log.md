@@ -11,7 +11,7 @@ date: "4-09-2020"
   Change log
 </h1>
 
-### 1.0(14)
+### 1.0(15)
 **Changes**
 - Added shake to send bug feature. Now you can share any bugs you found instantly and easier!
 - Added analytics tool
