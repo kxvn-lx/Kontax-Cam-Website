@@ -80,10 +80,6 @@ function IndexPage() {
             <div className="mt-20">
                 <div className="md:w-3/6">
                     <h1 className="font-bold text-2xl">Think you can help improve Kontax Cam?</h1>
-                    <p className="text-kontax-secondary-text">
-                        By contributing to open-source software, not only benefits you, but it also benefits the whole society.
-                        This can be a one-time thing, contribute something and done, or a recurring thing. Whatever it is, it's your choice. You control your own decision.
-                    </p>
                     <p className="mt-4">
                         <a className="text-black mr-4" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email →</a>
                         <a className="text-black" href="https://github.com/kxvn-lx/Kontax-Cam" target="_blank" rel="noopener noreferrer">Github →</a>
@@ -93,7 +89,7 @@ function IndexPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-4">
                     {
                         helpList.map(item => (
-                            <div key={item.title} className="flex justify-between w-9/12">
+                            <div key={item.title} className="flex justify-between md:w-9/12">
                                 <span className="text-3xl mr-4">{item.emoji}</span>
                                 <div>
                                     <h3 className="font-bold">{item.title}</h3>
