@@ -15,39 +15,39 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <div className="pt-32 xl:py-12 xl:px-8 text-center">
-                <div className="w-full xl:w-9/12 mx-auto">
-                    <span className="border border-gray-500 text-gray-500 rounded-full p-3">Coming soon</span>
-                    <div>
-                        <h1 className="fluid lg:text-5xl text-3xl m-3 font-bold">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
-                    </div>
-                    <p className="text-gray-300 w-3/4 mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-3">
+                <div className="text-center md:text-left m-auto">
+                    <h1 className="text-2xl font-bold mt-4">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
+                    <p className="text-kontax-secondary-text mx-auto mt-4">
                         Minimalist instant camera app optimised for any iOS device.
                         Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
                         while allowing photographers to blend in digital aspects to make a unique masterpiece.
                     </p>
-                    <a
-                        className="px-6 py-3 m-10 font-bold bg-white text-black rounded-sm inline-block"
-                        href="https://testflight.apple.com/join/MzTKHQdv"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        Join the Beta
-                    </a>
-                </div>
+                    <div className="md:flex items-center mt-10 justify-center md:justify-start">
+                        <a
+                            className="px-6 py-3 font-bold bg-black text-white rounded-lg inline-block"
+                            href="https://testflight.apple.com/join/MzTKHQdv"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Join the Beta
+                        </a>
 
-                <Modal modalTitle="Or scan the barcode">
-                    <div className="w-3/4">
-                        <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
-                        <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
+                        <div className="mt-4 md:mt-0 md:ml-4">
+                            <Modal modalTitle="Or scan the barcode">
+                                <div className="w-3/4">
+                                    <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
+                                    <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
+                                </div>
+                            </Modal>
+                        </div>
                     </div>
-                </Modal>
+                </div>
+                <img className="md:ml-20" src={require('../images/001.png')} alt="Kontax cam screenshot" />
             </div>
+
+            <div className="mt-10 border border-gray-300 w-full h-px" />
 
             <div className="mt-10">
-                <img className="w-5/6 md:w-2/6 mx-auto" src={require('../images/image1.png')} alt="Kontax cam screenshot" />
-            </div>
-
-            <div className="mt-10 md:mt-40">
                 {
                     showcaseList.map(item => (
                         <ShowcaseView key={item.title}
@@ -60,9 +60,9 @@ function IndexPage() {
                 }
             </div>
 
-            <div className="mt-10 md:mt-40 border border-gray-500 w-full h-px" />
+            <div className="mt-10 border border-gray-300 w-full h-px" />
 
-            <div className="mt-20 md:mt-40">
+            <div className="mt-20">
                 <h1 className="font-bold text-2xl">Features</h1>
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-10 mt-4">
                     {
@@ -77,27 +77,27 @@ function IndexPage() {
                 </div>
             </div>
 
-            <div className="mt-20 md:mt-40">
+            <div className="mt-20">
                 <div className="md:w-3/6">
                     <h1 className="font-bold text-2xl">Think you can help improve Kontax Cam?</h1>
-                    <p className="text-gray-300">
+                    <p className="text-kontax-secondary-text">
                         By contributing to open-source software, not only benefits you, but it also benefits the whole society.
                         This can be a one-time thing, contribute something and done, or a recurring thing. Whatever it is, it's your choice. You control your own decision.
                     </p>
                     <p className="mt-4">
-                        <a className="text-white mr-4" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email →</a>
-                        <a className="text-white" href="https://github.com/kxvn-lx/Kontax-Cam" target="_blank" rel="noopener noreferrer">Github →</a>
+                        <a className="text-black mr-4" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email →</a>
+                        <a className="text-black" href="https://github.com/kxvn-lx/Kontax-Cam" target="_blank" rel="noopener noreferrer">Github →</a>
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-4">
                     {
                         helpList.map(item => (
-                            <div key={item.title} className="flex justify-between py-2 px-4">
+                            <div key={item.title} className="flex justify-between w-9/12">
                                 <span className="text-3xl mr-4">{item.emoji}</span>
                                 <div>
                                     <h3 className="font-bold">{item.title}</h3>
-                                    <p className="text-gray-300">{item.description}</p>
+                                    <p className="text-kontax-secondary-text">{item.description}</p>
                                 </div>
                             </div>
                         ))
@@ -107,7 +107,7 @@ function IndexPage() {
 
             <div className="text-center mt-20">
                 <a
-                    className="px-6 py-3 m-10 font-bold bg-white text-black rounded-sm inline-block"
+                    className="px-6 py-3 font-bold bg-black text-white rounded-lg inline-block"
                     href="https://testflight.apple.com/join/MzTKHQdv"
                     target="_blank"
                     rel="noopener noreferrer">
@@ -127,22 +127,22 @@ export default IndexPage;
 const showcaseList = (
     [
         {
-            isLeftAligned: true,
-            imageName: 'image2.png',
+            isLeftAligned: false,
+            imageName: '003.png',
             title: 'Handpicked premium filters',
             description: `Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts. 
             Experiment with different combinations to create your own filter and effects combo!`
         },
         {
-            isLeftAligned: false,
-            imageName: 'image3.png',
+            isLeftAligned: true,
+            imageName: '004.png',
             title: 'Carefully crafted effects',
             description: `Kontax Cam believes that every photographer should define their own style of art. With that in mind,
             Kontax Cam delivers a handful amount of effects to make your photo looks unique.`
         },
         {
-            isLeftAligned: true,
-            imageName: 'image4.png',
+            isLeftAligned: false,
+            imageName: '002.png',
             title: 'One lab to rule them all',
             description: `Your very own, privacy first, images lab. Just like the iconic darkroom for film photographers,
             we provide you with Lab - the place for all of your masterpiece.`

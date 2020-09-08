@@ -8,10 +8,10 @@ function NotFoundPage() {
     return (
         <Layout>
             <SEO title="Kontax Cam" />
-            <div className="pt-32 xl:py-12 xl:px-8 text-gray-100 text-center">
+            <div className="pt-32 xl:py-12 xl:px-8 text-center">
                 <div className="w-full xl:w-9/12 mx-auto">
-                    <h1 className="lg:text-5xl text-3xl m-3 font-bold">Page not found</h1>
-                    <Link className="p-3 m-10 font-bold bg-white text-black shadow-white rounded-lg inline-block" to="/">
+                    <h1 className="text-2xl font-bold mt-4">Page not found</h1>
+                    <Link className="px-6 py-3 font-bold bg-black text-white rounded-lg inline-block mt-20" to="/">
                         Return to home
                     </Link>
                 </div>

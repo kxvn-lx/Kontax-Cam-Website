@@ -6,7 +6,6 @@ import styled from 'styled-components'
 
 const ImageShowcase = (props) => {
     const imageName = props.imageName
-    const filterName = props.filterName
 
     const data = useStaticQuery(graphql`
       query {
@@ -27,14 +26,11 @@ const ImageShowcase = (props) => {
     `)
 
     const image = data.images.edges.find(image =>
-        image.node.relativePath === imageName + ".jpg"
+        image.node.relativePath === imageName
     )
 
     return (
         <div>
-            <FilterNameSyle className="inline-block px-8 py-1 rounded-full text-xs text-gray-900">
-                {filterName}
-            </FilterNameSyle>
             <Img fluid={image.node.childImageSharp.fluid} />
         </div>
     )
@@ -44,14 +40,4 @@ export default ImageShowcase
 
 ImageShowcase.propTypes = {
     imageName: PropTypes.string.isRequired,
-    filterName: PropTypes.string.isRequired
 };
-
-const FilterNameSyle = styled.span`
-    backdrop-filter: blur(12px) saturate(100%);
-    -webkit-backdrop-filter: blur(12px) saturate(50%);
-    position: relative;
-    top: 40px;
-    z-index: 1;
-    left: 10px
-`

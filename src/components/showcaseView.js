@@ -10,12 +10,10 @@ export default function showcaseView(props) {
     return (
         <ShowcaseWrapper isLeftAligned={isLeftAligned} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
             <div id="content" className="m-auto w-5/6">
-                <h1 className="font-bold text-2xl">{title}</h1>
-                <p className="text-gray-300">{description}</p>
+                <h1 className="font-bold md:text-2xl text-xl">{title}</h1>
+                <p className="text-kontax-secondary-text">{description}</p>
             </div>
-            <div className="">
-                <img className="w-4/6 md:w-3/6 mx-auto" src={require('../images/' + imageName)} alt="Kontax Cam showcase" />
-            </div>
+            <img src={require('../images/' + imageName)} alt="Kontax Cam showcase" />
         </ShowcaseWrapper>
     )
 }

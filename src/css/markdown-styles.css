@@ -46,19 +46,19 @@
 /* Paragraph */
 .markdown p {
     @apply mb-4;
-    @apply text-gray-300;
+    @apply text-black;
 }
 /* Lists */
 .markdown ul,
 .markdown ol {
     @apply mb-4 ml-8;
-    @apply text-gray-300;
+    @apply text-kontax-secondary-text;
 }
 .markdown li > p,
 .markdown li > ul,
 .markdown li > ol {
     @apply mb-0;
-    @apply text-gray-300;
+    @apply text-kontax-secondary-text;
 }
 .markdown ol {
     @apply list-decimal;
@@ -91,7 +91,7 @@
 
 .markdown hr {
     opacity: 0.2;
-    border: 1px solid #8E8E93;
+    border: 1px solid #e3e3e3;
     width: 20px;
     margin: 40px 0;
 }
