@@ -13,7 +13,7 @@ function Header() {
   `);
 
     return (
-        <nav className="my-20" style={{ zIndex: '98' }}>
+        <nav className="my-10 md:my-20" style={{ zIndex: '98' }}>
             <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-3">
                 <Link to="/">
                     <p className="text-xl text-black">
