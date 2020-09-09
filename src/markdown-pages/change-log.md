@@ -8,11 +8,20 @@ date: "4-09-2020"
     <img src="https://i.ibb.co/C7RCP8W/changelog-background.jpg" alt="Changelog background">
 </div>
 <div class="mt-20 md:mt-40">
-<h1 align="center">
-  Change log
-</h1>
-
+    <h1 align="center">
+        Change log
+    </h1>
 </div>
+
+### 1.0(16)
+**Changes**
+- Added BW5 Filter for BW Collection.
+- You can now pinch to zoom!
+- Onboarding screen is now more refined
+- Simplified settings footer view
+
+**Fixes**
+- None
 
 ### 1.0(15)
 **Changes**

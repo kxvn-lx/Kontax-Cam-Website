@@ -16,7 +16,7 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="text-center md:text-left m-auto">
                     <h1 className="text-2xl font-bold mt-4">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
                     <p className="text-kontax-secondary-text mx-auto mt-4">
