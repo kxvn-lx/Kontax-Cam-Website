@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import ImageShowcase from './imageShowcase'
 
 export default function showcaseView(props) {
     const isLeftAligned = props.isLeftAligned
@@ -13,7 +14,7 @@ export default function showcaseView(props) {
                 <h1 className="font-bold md:text-2xl text-xl">{title}</h1>
                 <p className="text-kontax-secondary-text">{description}</p>
             </div>
-            <img src={require('../images/' + imageName)} alt="Kontax Cam showcase" />
+            <ImageShowcase imageName={imageName} />
         </ShowcaseWrapper>
     )
 }

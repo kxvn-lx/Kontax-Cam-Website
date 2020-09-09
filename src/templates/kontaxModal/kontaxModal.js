@@ -22,7 +22,7 @@ export default function kontaxModal({ children, modalTitle }) {
                 isOpen={modalIsOpen}
                 contentLabel="Kontax Cam Modal"
                 onRequestClose={closeModal}
-                className="Modal text-white mx-auto border border-gray-900 px-10 py-5 rounded-lg flex-1 w-4/5 max-w-md"
+                className="Modal text-black mx-auto border border-gray-900 px-10 py-5 rounded-lg flex-1 w-4/5 max-w-md"
                 overlayClassName="Overlay"
             >
                 <ModalLayout className="text-center">

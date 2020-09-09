@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 import Modal from "../templates/kontaxModal/kontaxModal"
 import ShowcaseView from "../components/showcaseView"
 import FeatureView from "../components/featureView"
+import ImageShowcase from "../components/imageShowcase"
 
 function IndexPage() {
 
@@ -42,10 +43,10 @@ function IndexPage() {
                         </div>
                     </div>
                 </div>
-                <img className="md:ml-20" src={require('../images/001.png')} alt="Kontax cam screenshot" />
+                <ImageShowcase imageName="001.png" />
             </div>
 
-            <div className="mt-10 border border-gray-300 w-full h-px" />
+            <div className="separator" />
 
             <div className="mt-10">
                 {
@@ -60,7 +61,7 @@ function IndexPage() {
                 }
             </div>
 
-            <div className="mt-10 border border-gray-300 w-full h-px" />
+            <div className="separator" />
 
             <div className="mt-20">
                 <h1 className="font-bold text-2xl">Features</h1>
@@ -72,30 +73,6 @@ function IndexPage() {
                                 iconName={item.iconName}
                                 description={item.description}
                             />
-                        ))
-                    }
-                </div>
-            </div>
-
-            <div className="mt-20">
-                <div className="md:w-3/6">
-                    <h1 className="font-bold text-2xl">Think you can help improve Kontax Cam?</h1>
-                    <p className="mt-4">
-                        <a className="text-black mr-4" href="mailto:kevinlaminto.dev@gmail.com?subject=[Kontax Cam] Contributing 🚀" target="_blank" rel="noopener noreferrer">Email →</a>
-                        <a className="text-black" href="https://github.com/kxvn-lx/Kontax-Cam" target="_blank" rel="noopener noreferrer">Github →</a>
-                    </p>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-4">
-                    {
-                        helpList.map(item => (
-                            <div key={item.title} className="flex justify-between md:w-9/12">
-                                <span className="text-3xl mr-4">{item.emoji}</span>
-                                <div>
-                                    <h3 className="font-bold">{item.title}</h3>
-                                    <p className="text-kontax-secondary-text">{item.description}</p>
-                                </div>
-                            </div>
                         ))
                     }
                 </div>
@@ -178,38 +155,6 @@ const featureList = (
             iconName: 'volume.svg',
             title: 'Volume button trigger',
             description: `Tired of pressing the big ol' shutter button? Kontax Cam allows you to snap your masterpiece by just pressing the volume up/down button.`
-        }
-    ]
-)
-
-const helpList = (
-    [
-        {
-            emoji: '🎨',
-            title: 'Graphic designer',
-            description: `Kontax Cam relies on stock icons for now. If you think you can help with this, that'd be great!`
-        },
-        {
-            emoji: '👨‍💻👩‍💻',
-            title: 'iOS Developer',
-            description: `Kontax Cam is fully optimised for iOS. If you think you can improve the app, add a new feature, or anything,
-            please feel free to shoot me an email!`
-        },
-        {
-            emoji: '📸',
-            title: 'Photographer',
-            description: `Are you in love with taking photos and appreciates art? You can contribute to Kontax Cam by submitting your photo taken
-            with Kontax Cam.`
-        },
-        {
-            emoji: '📱',
-            title: 'UI/UX Designer',
-            description: `If you love designing not only aesthetically pleasing user interface but also a great user experience, please hop on board!`
-        },
-        {
-            emoji: '👀',
-            title: 'Your own role',
-            description: `Want to help with your unique skills but not listed here? fear not! Just shoot me an email`
         }
     ]
 )

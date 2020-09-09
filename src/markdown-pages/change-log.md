@@ -7,9 +7,12 @@ date: "4-09-2020"
 <div align="center">
     <img src="https://i.ibb.co/C7RCP8W/changelog-background.jpg" alt="Changelog background">
 </div>
+<div class="mt-20 md:mt-40">
 <h1 align="center">
   Change log
 </h1>
+
+</div>
 
 ### 1.0(15)
 **Changes**

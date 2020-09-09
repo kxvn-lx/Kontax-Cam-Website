@@ -9,7 +9,7 @@ export default function Template({ data }) {
 
     return (
         <Layout>
-            <div className="markdown w-3/4 mx-auto" dangerouslySetInnerHTML= {{__html: post.html}} />
+            <div className="markdown" dangerouslySetInnerHTML= {{__html: post.html}} />
         </Layout>
     )
 }
