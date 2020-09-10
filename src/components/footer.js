@@ -8,7 +8,7 @@ export default function footer() {
                 <div className="md:block md:items-center w-full">
                     <a
                         className="text-black mt-4 no-underline inline-block"
-                        href="https://www.twitter.com/kevinlx_" target="_blank" rel="noopener noreferrer">
+                        href="https://www.twitter.com/kontaxcam" target="_blank" rel="noopener noreferrer">
                         Twitter
                     </a>
                     <a
