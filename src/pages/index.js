@@ -142,7 +142,7 @@ const featureList = (
             description: `The lab is powerful enough to provides multiple save and delete of images. Lesser time organising your photos, more time taking your masterpiece.`
         },
         {
-            iconName: 'accessibility-human.svg',
+            iconName: 'human.svg',
             title: 'Gestured-based',
             description: `Kontax Cam is designed for human. Hence your masterpiece - is just but a tap and swipe away.`
         },
