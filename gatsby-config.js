@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     title: `Kontax Cam`,
     description: `Instant camera app hybrid that you need.`,
-    author: `@kevinlx_`,
+    author: `@kontaxcam`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
