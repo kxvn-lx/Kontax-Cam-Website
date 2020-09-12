@@ -6,11 +6,11 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Kontax Cam`,
-    description: `Instant camera app hybrid that you need.`,
+    description: `Instant camera hybrid app for films and digital photographers, by photographers.`,
     author: `@kontaxcam`,
     twitterUsername: "@kontaxcam",
     url: "https://www.kontax.cam",
-    image: "/Editorial1.png"
+    image: "https://kontax.cam/Editorial1.png"
 
   },
   plugins: [

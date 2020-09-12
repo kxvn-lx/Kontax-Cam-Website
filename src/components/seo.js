@@ -71,10 +71,14 @@ function SEO({ description, lang, meta, keywords, title }) {
             title={title}
             titleTemplate={`%s — ${site.siteMetadata.description}`}
         >
+
+            <meta property="og:image" content={site.siteMetadata.image} />
+            
             {/* Twitter Card tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content={site.siteMetadata.author} />
             <meta name="twitter:title" content={title} />
+            <meta name="twitter:site" content={site.siteMetadata.author} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={site.siteMetadata.image} />
         </Helmet>
