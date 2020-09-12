@@ -11,6 +11,8 @@ function SEO({ description, lang, meta, keywords, title }) {
           title
           description
           author
+          url
+          image
         }
       }
     }
@@ -74,7 +76,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             <meta name="twitter:creator" content={site.siteMetadata.author} />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image" content={require('../images/Editorial1.png')} />
+            <meta name="twitter:image" content={site.siteMetadata.image} />
         </Helmet>
     );
 }
