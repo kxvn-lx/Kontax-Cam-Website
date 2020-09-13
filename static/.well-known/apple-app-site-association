@@ -1,21 +1,5 @@
 {
     "appclips": {
-        "apps": [ "com.kevinlaminto.kontaxcam.Clip" ]
-    },
-    "appLinks": {
-        "details": [
-            {
-                "appID": "com.kevinlaminto.kontaxcam",
-                "components": [
-                    { "/": "/order/*" }
-                ]
-            }
-        ]
-    },
-    "activitycontinuation": {
-        "apps": [ "com.kevinlaminto.kontaxcam" ]
-    },
-    "webcredentials": {
-        "apps": [ "com.kevinlaminto.kontaxcam" ]
+        "apps": ["com.kevinlaminto.kontaxcam.Clip"]
     }
-}
+} 
