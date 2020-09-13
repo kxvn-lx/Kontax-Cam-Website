@@ -81,6 +81,9 @@ function SEO({ description, lang, meta, keywords, title }) {
             <meta name="twitter:site" content={site.siteMetadata.author} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={site.siteMetadata.image} />
+
+            {/* Apple tags */}
+            <meta name="apple-itunes-app" content="app-clip-bundle-id=com.kevinlaminto.kontaxcam.Clip" />
         </Helmet>
     );
 }
