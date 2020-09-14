@@ -31,6 +31,22 @@ function SEO({ description, lang, meta, keywords, title }) {
                     content: metaDescription,
                 },
                 {
+                    name: `og:url`,
+                    content: "https://www.kontax.cam",
+                },
+                {
+                    name: `og:locale`,
+                    content: "en_US",
+                },
+                {
+                    name: `og:site_name`,
+                    content: title,
+                },
+                {
+                    name: `og:image`,
+                    content: site.siteMetadata.image,
+                },
+                {
                     property: `og:title`,
                     content: title,
                 },
@@ -55,8 +71,12 @@ function SEO({ description, lang, meta, keywords, title }) {
                     content: title,
                 },
                 {
-                    name: `og:image`,
-                    content: site.siteMetadata.image,
+                    name: `twitter:author`,
+                    content: site.siteMetadata.author,
+                },
+                {
+                    name: `twitter:description`,
+                    content: site.siteMetadata.description,
                 },
                 {
                     name: `apple-itunes-app`,
