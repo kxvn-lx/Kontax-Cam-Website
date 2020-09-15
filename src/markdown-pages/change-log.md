@@ -15,11 +15,12 @@ date: "4-09-2020"
 
 ### 1.0(17)
 **Changes**
+- Improved purchase button UI/UX. Now more visible and provides better affordance
 - Added 2x and 3x icon sizes for bigger screens.
 - Added push notifications - keep up to date with Kontax Cam!
 - Lab placeholder screen is now more spaced out and simpler
 - Added try button for un-purchased collections! You can try them to see wether you like it or not.
-- Added app clip supports (Will need to do more research into it)
+- Added app clip supports (Will need to do more testing)
 
 **Fixes**
 - Migrated backend infrastructure to a dedicated package resulting a more modular and faster app.
