@@ -65,7 +65,7 @@ function IndexPage() {
 
             <div className="mt-20">
                 <h1 className="font-bold text-2xl">Features</h1>
-                <div className="grid md:grid-cols-3 grid-cols-1 gap-10 mt-4">
+                <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4">
                     {
                         featureList.map(item => (
                             <FeatureView key={item.title}
@@ -155,6 +155,11 @@ const featureList = (
             iconName: 'volume.svg',
             title: 'Volume button trigger',
             description: `Tired of pressing the big ol' shutter button? Kontax Cam allows you to snap your masterpiece by just pressing the volume up/down button.`
+        },
+        {
+            iconName: 'sun.svg',
+            title: 'Light/Dark mode',
+            description: `By default Kontax Cam follows the system's appearance. However, you can pick either a light or dark mode in the settings page!`
         }
     ]
 )

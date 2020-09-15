@@ -13,6 +13,19 @@ date: "4-09-2020"
     </h1>
 </div>
 
+### 1.0(17)
+**Changes**
+- Added 2x and 3x icon sizes for bigger screens.
+- Added push notifications - keep up to date with Kontax Cam!
+- Lab placeholder screen is now more spaced out and simpler
+- Added try button for un-purchased collections! You can try them to see wether you like it or not.
+- Added app clip supports (Will need to do more research into it)
+
+**Fixes**
+- Migrated backend infrastructure to a dedicated package resulting a more modular and faster app.
+- Improve filter info UI and UX
+
+
 ### 1.0(16)
 **Changes**
 - Added BW5 Filter for BW Collection.
