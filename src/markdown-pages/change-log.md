@@ -13,7 +13,7 @@ date: "4-09-2020"
     </h1>
 </div>
 
-### 1.0(17)
+### 1.0(19)
 **Changes**
 - Improved purchase button UI/UX. Now more visible and provides better affordance
 - Added 2x and 3x icon sizes for bigger screens.
