@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import ImageShowcase from './imageShowcase'
@@ -9,13 +10,15 @@ export default function showcaseView(props) {
     const title = props.title
     const description = props.description
     return (
-        <ShowcaseWrapper isLeftAligned={isLeftAligned} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
-            <div id="content" className="m-auto w-5/6">
-                <h1 className="font-bold md:text-2xl text-xl">{title}</h1>
-                <p className="text-kontax-secondary-text">{description}</p>
-            </div>
-            <ImageShowcase imageName={imageName} />
-        </ShowcaseWrapper>
+        <Fade>
+            <ShowcaseWrapper isLeftAligned={isLeftAligned} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
+                <div id="content" className="m-auto w-5/6">
+                    <h1 className="font-bold md:text-2xl text-xl">{title}</h1>
+                    <p className="text-kontax-secondary-text">{description}</p>
+                </div>
+                <ImageShowcase imageName={imageName} />
+            </ShowcaseWrapper>
+        </Fade>
     )
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -8,7 +9,7 @@ function Contributing() {
     return (
         <Layout>
             <SEO title="Kontax Cam" />
-            <div>
+            <Fade>
                 <ImageShowcase imageName="contributing.jpg" />
                 <div className="md:w-2/4 mt-20 md:mt-40">
                     <h1 className="font-bold text-2xl">Contributing to Kontax Cam</h1>
@@ -40,7 +41,7 @@ function Contributing() {
 
                 <p className="text-kontax-secondary-text">📍 Melbourne, Australia & remote</p>
 
-            </div>
+            </Fade>
         </Layout>
     );
 }

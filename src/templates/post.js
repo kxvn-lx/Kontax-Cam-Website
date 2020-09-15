@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout";
@@ -9,7 +10,9 @@ export default function Template({ data }) {
 
     return (
         <Layout>
-            <div className="markdown" dangerouslySetInnerHTML= {{__html: post.html}} />
+            <Fade>
+                <div className="markdown" dangerouslySetInnerHTML={{ __html: post.html }} />
+            </Fade>
         </Layout>
     )
 }

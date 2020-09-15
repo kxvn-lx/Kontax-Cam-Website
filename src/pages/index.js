@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -16,35 +17,37 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="text-center md:text-left m-auto">
-                    <h1 className="text-2xl font-bold mt-4">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
-                    <p className="text-kontax-secondary-text mx-auto mt-4">
-                        Minimalist instant camera app optimised for any iOS device.
-                        Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
-                        while allowing photographers to blend in digital aspects to make a unique masterpiece.
+            <Fade>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="text-center md:text-left m-auto">
+                        <h1 className="text-2xl font-bold mt-4">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
+                        <p className="text-kontax-secondary-text mx-auto mt-4">
+                            Minimalist instant camera app optimised for any iOS device.
+                            Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
+                            while allowing photographers to blend in digital aspects to make a unique masterpiece.
                     </p>
-                    <div className="md:flex items-center mt-10 justify-center md:justify-start">
-                        <a
-                            className="px-6 py-3 font-bold bg-black text-white rounded-lg inline-block"
-                            href="https://testflight.apple.com/join/MzTKHQdv"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            Join the Beta
+                        <div className="md:flex items-center mt-10 justify-center md:justify-start">
+                            <a
+                                className="px-6 py-3 font-bold bg-black text-white rounded-lg inline-block"
+                                href="https://testflight.apple.com/join/MzTKHQdv"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Join the Beta
                         </a>
 
-                        <div className="mt-4 md:mt-0 md:ml-4">
-                            <Modal modalTitle="Or scan the barcode">
-                                <div className="w-3/4">
-                                    <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
-                                    <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
-                                </div>
-                            </Modal>
+                            <div className="mt-4 md:mt-0 md:ml-4">
+                                <Modal modalTitle="Or scan the barcode">
+                                    <div className="w-3/4">
+                                        <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
+                                        <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
+                                    </div>
+                                </Modal>
+                            </div>
                         </div>
                     </div>
+                    <ImageShowcase imageName="001.png" />
                 </div>
-                <ImageShowcase imageName="001.png" />
-            </div>
+            </Fade>
 
             <div className="separator" />
 
@@ -65,17 +68,19 @@ function IndexPage() {
 
             <div className="mt-20">
                 <h1 className="font-bold text-2xl">Features</h1>
-                <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4">
-                    {
-                        featureList.map(item => (
-                            <FeatureView key={item.title}
-                                title={item.title}
-                                iconName={item.iconName}
-                                description={item.description}
-                            />
-                        ))
-                    }
-                </div>
+                <Fade>
+                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4">
+                        {
+                            featureList.map(item => (
+                                <FeatureView key={item.title}
+                                    title={item.title}
+                                    iconName={item.iconName}
+                                    description={item.description}
+                                />
+                            ))
+                        }
+                    </div>
+                </Fade>
             </div>
 
             <div className="text-center mt-20">
