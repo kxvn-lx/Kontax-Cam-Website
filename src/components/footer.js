@@ -7,20 +7,20 @@ export default function footer() {
             <div className="flex text-center max-w-6xl p-3 mx-auto text-sm md:p-8">
                 <div className="md:block md:items-center w-full">
                     <a
-                        className="text-black mt-4 no-underline inline-block"
+                        
                         href="https://www.twitter.com/kontaxcam" target="_blank" rel="noopener noreferrer">
                         Twitter
                     </a>
                     <a
-                        className="text-black mt-4 no-underline inline-block ml-6"
+                        
                         href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">
                         Email
                     </a>
-                    <Link to="/contributing" className="text-black mt-4 no-underline inline-block ml-6">
+                    <Link to="/contributing">
                         Contributing
                     </Link>
                     <a
-                        className="text-black mt-4 no-underline inline-block ml-6"
+                        
                         href={'/press-kit.zip'} download>
                         Press Kit
                     </a>

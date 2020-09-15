@@ -28,7 +28,7 @@ function IndexPage() {
                     </p>
                         <div className="md:flex items-center mt-10 justify-center md:justify-start">
                             <a
-                                className="px-6 py-3 font-bold bg-black text-white rounded-lg inline-block"
+                                className="main-button"
                                 href="https://testflight.apple.com/join/MzTKHQdv"
                                 target="_blank"
                                 rel="noopener noreferrer">
@@ -45,7 +45,7 @@ function IndexPage() {
                             </div>
                         </div>
                     </div>
-                    <ImageShowcase imageName="001.png" />
+                    <ImageShowcase imageName="001.png" shadowedClassName="shadowed" />
                 </div>
             </Fade>
 
@@ -85,7 +85,7 @@ function IndexPage() {
 
             <div className="text-center mt-20">
                 <a
-                    className="px-6 py-3 font-bold bg-black text-white rounded-lg inline-block"
+                    className="main-button"
                     href="https://testflight.apple.com/join/MzTKHQdv"
                     target="_blank"
                     rel="noopener noreferrer">

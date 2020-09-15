@@ -13,6 +13,7 @@
 html {
     background-color: #f4f4f4;
     font-size: 18px;
+    transition: 0.25s ease-in-out;
 }
 
 button,
@@ -44,4 +45,33 @@ img {
 
 a {
     @apply text-blue-600;
+}
+
+.main-button {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35);
+    -webkit-transition: all 400ms cubic-bezier(.23, 1, .32, 1);
+    transition: all 400ms cubic-bezier(.23, 1, .32, 1);
+
+    @apply px-6 py-3 font-bold bg-black text-white rounded-lg inline-block;
+}
+
+.main-button:hover {
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15), 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+    -webkit-transform: translate(0px, -4px);
+    -ms-transform: translate(0px, -4px);
+    transform: translate(0px, -4px);
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(-20px 30px 25px rgba(0,0,0,0.4));
+    filter: drop-shadow(-20px 30px 25px rgba(0,0,0,0.4));
+}
+
+footer a {
+    transition: 0.25s ease-in-out;
+    @apply text-black no-underline inline-block mx-4 px-2 py-1;
+}
+
+footer a:hover {
+    @apply bg-gray-200 rounded-lg;
 }
