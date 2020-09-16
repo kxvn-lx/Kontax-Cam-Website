@@ -17,7 +17,7 @@ export default function kontaxModal({ children, modalTitle }) {
 
     return (
         <div>
-            <button onClick={openModal}>{modalTitle}</button>
+            <button onClick={openModal} className="text-kontax-secondary-text">{modalTitle}</button>
             <Modal
                 isOpen={modalIsOpen}
                 contentLabel="Kontax Cam Modal"
