@@ -19,7 +19,6 @@ function Contributing() {
                     </p>
 
                     <div className="mt-4">
-                        <a href="https://github.com/kxvn-lx/Kontax-Cam" target="_blank" rel="noopener noreferrer">Github →</a>
                         <a className="ml-4" href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">Email →</a>
                     </div>
                 </div>
