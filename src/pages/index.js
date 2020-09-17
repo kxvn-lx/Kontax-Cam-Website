@@ -29,11 +29,11 @@ function IndexPage() {
                         <div className="md:flex items-center mt-10 justify-center md:justify-start">
                             <a
                                 className="main-button"
-                                href="https://testflight.apple.com/join/MzTKHQdv"
+                                href="https://apps.apple.com/app/kontax-cam/id1527110773"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                Join the Beta
-                        </a>
+                                <img src={require('../images/download.svg')} alt="Download on the app store" />
+                            </a>
 
                             <div className="mt-4 md:mt-0 md:ml-4">
                                 <Modal modalTitle="Or scan the barcode">
@@ -83,13 +83,13 @@ function IndexPage() {
                 </Fade>
             </div>
 
-            <div className="text-center mt-20">
+            <div className="md:flex items-center mt-20 justify-center md:justify-start">
                 <a
-                    className="main-button"
-                    href="https://testflight.apple.com/join/MzTKHQdv"
+                    className="main-button mx-auto"
+                    href="https://apps.apple.com/app/kontax-cam/id1527110773"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Join the Beta
+                    <img src={require('../images/download.svg')} alt="Download on the app store" />
                 </a>
             </div>
 

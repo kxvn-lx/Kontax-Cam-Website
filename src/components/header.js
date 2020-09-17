@@ -16,13 +16,13 @@ function Header() {
         <nav className="my-10 md:my-20" style={{ zIndex: '98' }}>
             <div className="flex flex-wrap items-center justify-between max-w-5xl mx-auto py-3">
                 <Link to="/">
-                    <p className="text-xl md:text-2xl font-extrabold text-black">
+                    <p className="text-xl md:text-2xl font-bold text-black">
                         {site.siteMetadata.title}
                     </p>
                 </Link>
 
                 <div className="text-xs border p-1 md:p-2 rounded-lg border-kontax-secondary-text text-kontax-secondary-text">
-                    <p>Available for  soon</p>
+                    <p>Available for </p>
                 </div>
             </div>
         </nav>
