@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import styled from 'styled-components'
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -16,6 +17,10 @@ function IndexPage() {
                 keywords={[`kevin laminto`, `kevinlaminto`, `kontaxcam`, `kontax cam`]}
                 title="Kontax Cam"
             />
+
+            <PHWrapper href="https://www.producthunt.com/posts/kontax-cam-for-ios?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kontax-cam-for-ios" target="_blank" rel="noopener noreferrer">
+                <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=261842&theme=light" alt="Kontax Cam for iOS - Instant camera hybrid app for photographers. | Product Hunt Embed" style={{ width: '250px', height: '54px' }} width="250" height="54" />
+            </PHWrapper>
 
             <Fade>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -100,6 +105,12 @@ function IndexPage() {
 export default IndexPage;
 
 // Styled Componentsmes
+const PHWrapper = styled.a`
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+`
 
 // Datasource
 const showcaseList = (
