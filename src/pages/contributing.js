@@ -19,7 +19,7 @@ function Contributing() {
                     </p>
 
                     <div className="mt-4">
-                        <a className="ml-4" href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">Email →</a>
+                        <a href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">Email →</a>
                     </div>
                 </div>
 

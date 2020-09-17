@@ -13,6 +13,10 @@ date: "4-09-2020"
     </h1>
 </div>
 
+### 1.0 Official
+- Released on the app store! 🥳
+
+
 ### 1.0(19)
 **Changes**
 - Improved purchase button UI/UX. Now more visible and provides better affordance

@@ -18,10 +18,6 @@ function IndexPage() {
                 title="Kontax Cam"
             />
 
-            <PHWrapper href="https://www.producthunt.com/posts/kontax-cam-for-ios?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kontax-cam-for-ios" target="_blank" rel="noopener noreferrer">
-                <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=261842&theme=light" alt="Kontax Cam for iOS - Instant camera hybrid app for photographers. | Product Hunt Embed" />
-            </PHWrapper>
-
             <Fade>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="text-center md:text-left m-auto">
@@ -105,19 +101,6 @@ function IndexPage() {
 export default IndexPage;
 
 // Styled Componentsmes
-const PHWrapper = styled.a`
-    z-index: 99;
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    width: 250px;
-    height: 54px;
-
-    @media (max-width: 768px) {
-        width: 200px;
-        height: 40px;
-  }
-`
 
 // Datasource
 const showcaseList = (
