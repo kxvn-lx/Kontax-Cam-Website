@@ -57,6 +57,12 @@ a {
     @apply w-32;
 }
 
+@media(max-width: 768px) {
+    .main-button img {
+        @apply mx-auto;
+    }
+}
+
 .main-button:hover {
     filter: drop-shadow(0 15px 30px 0 rgba(0, 0, 0, 0.4));
     -webkit-transform: translate(0px, -4px);
