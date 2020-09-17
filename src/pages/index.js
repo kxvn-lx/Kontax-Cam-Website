@@ -40,7 +40,7 @@ function IndexPage() {
                                 <Modal modalTitle="Or scan the barcode">
                                     <div className="w-3/4">
                                         <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
-                                        <p className="mt-4">Scan the barcode with your camera to open it in TestFlight</p>
+                                        <p className="mt-4">Scan the barcode with your camera to open it on the app store</p>
                                     </div>
                                 </Modal>
                             </div>
