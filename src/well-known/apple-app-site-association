@@ -1,7 +1,16 @@
 {
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "D87H8GPTK2.com.kevinlaminto.kontaxcam" ],
+             "components": []
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "D87H8GPTK2.com.kevinlaminto.kontaxcam" ]
+   },
     "appclips": {
-        "apps": [
-            "D87H8GPTK2.com.kevinlaminto.kontaxcam.Clip"
-        ]
+        "apps": ["D87H8GPTK2.com.kevinlaminto.kontaxcam.Clip"]
     }
 }
