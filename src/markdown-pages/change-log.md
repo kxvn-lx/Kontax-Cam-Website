@@ -13,6 +13,14 @@ date: "4-09-2020"
     </h1>
 </div>
 
+### 1.0.1
+**Changes**
+- none
+
+**Fixes**
+- Launchscreen glitch on some devices
+
+
 ### 1.0 Official
 - Released on the app store! 🥳
 
