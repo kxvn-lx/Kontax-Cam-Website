@@ -26,7 +26,7 @@ function IndexPage() {
                             Minimalist instant camera app optimised for any iOS device.
                             Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
                             while allowing photographers to blend in digital aspects to make a unique masterpiece.
-                    </p>
+                        </p>
                         <div className="md:flex items-center mt-10 justify-center md:justify-start">
                             <a
                                 className="main-button"
