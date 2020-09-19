@@ -4,23 +4,28 @@ import { Link } from "gatsby"
 export default function footer() {
     return (
         <footer>
-            <div className="flex text-center max-w-6xl p-3 mx-auto text-sm md:p-8">
-                <div className="md:block md:items-center w-full">
+            <div className="text-center max-w-6xl p-3 mx-auto text-sm md:p-8">
+                <div className="justify-around flex md:block mb-4">
                     <a
-                        
                         href="https://www.twitter.com/kontaxcam" target="_blank" rel="noopener noreferrer">
-                        Twitter
+                        <img src={require('../images/twitter.svg')} alt="twitter icon" />
                     </a>
                     <a
-                        
-                        href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">
-                        Email
+                        href="https://www.instagram.com/kontaxcam" target="_blank" rel="noopener noreferrer">
+                        <img src={require('../images/instagram.svg')} alt="Instagram icon" />
                     </a>
+                    <a
+                        href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src={require('../images/mail.svg')} alt="Email icon" />
+                    </a>
+                </div>
+
+                <div className="">
                     <Link to="/contributing">
                         Contributing
                     </Link>
                     <a
-                        
+
                         href={'/press-kit.zip'} download>
                         Press Kit
                     </a>

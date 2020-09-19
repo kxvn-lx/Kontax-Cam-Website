@@ -20,7 +20,6 @@ date: "4-09-2020"
 **Fixes**
 - Launchscreen glitch on some devices
 
-
 ### 1.0 Official
 - Released on the app store! 🥳
 
