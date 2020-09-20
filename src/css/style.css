@@ -57,7 +57,7 @@ a {
     @apply w-32;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     .main-button img {
         @apply mx-auto;
     }
@@ -71,8 +71,8 @@ a {
 }
 
 .shadowed {
-    -webkit-filter: drop-shadow(-20px 30px 25px rgba(0, 0, 0, 0.4));
-    filter: drop-shadow(-20px 30px 25px rgba(0, 0, 0, 0.4));
+    -webkit-filter: drop-shadow(-10px 20px 15px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(-10px 20px 15px rgba(0, 0, 0, 0.2));
 }
 
 footer a {

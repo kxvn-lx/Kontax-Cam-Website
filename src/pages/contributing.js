@@ -69,6 +69,10 @@ const helpList = (
             description: `Design and improve the app/website's UI and UX.`
         },
         {
+            title: 'Translator',
+            description: `We need you to make Kontax Cam localized to as much language as possible!`
+        },
+        {
             title: 'Your own role + ',
             description: `Surprise us!`
         }
