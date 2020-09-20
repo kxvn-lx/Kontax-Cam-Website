@@ -22,13 +22,13 @@ export default function kontaxModal({ children, modalTitle }) {
                 isOpen={modalIsOpen}
                 contentLabel="Kontax Cam Modal"
                 onRequestClose={closeModal}
-                className="Modal text-black mx-auto px-10 py-5 rounded-lg flex-1 w-4/5 max-w-md"
+                className="Modal text-white mx-auto px-10 py-5 rounded-lg flex-1 w-4/5 max-w-md"
                 overlayClassName="Overlay"
             >
                 <ModalLayout className="text-center">
                     {children}
                 </ModalLayout>
-                <ModalButtonWrapper className="text-center mt-4 border-t border-gray-500">
+                <ModalButtonWrapper className="text-center mt-4 border-t border-gray-300">
                     <button onClick={closeModal} className="font-bold text-lg mt-4">OK</button>
                 </ModalButtonWrapper>
             </Modal>
