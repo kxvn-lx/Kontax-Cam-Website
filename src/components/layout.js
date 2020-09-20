@@ -10,8 +10,8 @@ function Layout({ children }) {
         <div className="flex flex-col min-h-screen font-sans bg-kontax-white text-black px-4">
             <Header />
 
-            <PHWrapper href="https://www.producthunt.com/posts/kontax-cam-for-ios?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kontax-cam-for-ios" target="_blank" rel="noopener noreferrer">
-                <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=261842&theme=light" alt="Kontax Cam for iOS - Instant camera hybrid app for photographers. | Product Hunt Embed" />
+            <PHWrapper href="https://www.producthunt.com/posts/kontax-cam?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kontax-cam" target="_blank" rel="noopener noreferrer">
+                <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=261842&theme=light" alt="Kontax Cam - Instant camera hybrid app for photographers. | Product Hunt Embed" />
             </PHWrapper>
 
             <main className="flex-1 w-full max-w-5xl py-8 mx-auto md:py-16 mb-40">
