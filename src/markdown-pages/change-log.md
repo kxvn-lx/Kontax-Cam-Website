@@ -13,6 +13,16 @@ date: "4-09-2020"
     </h1>
 </div>
 
+### 1.1.0
+**Changes**
+- Added indonesian localization! 🇮🇩 If you wished to help with translating the app, please get in touch! 
+- By popular demand: We've added Slide to change exposure feature! Just like the stock camera app, slide up or down to change the EV value.
+- Added app version on settings
+- Added instagram row on settings
+
+**Fixes**
+- Select button on lab screen still registers even though no photos are present.
+
 ### 1.0.1
 **Changes**
 - none

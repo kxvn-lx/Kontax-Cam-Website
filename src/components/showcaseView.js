@@ -16,7 +16,7 @@ export default function showcaseView(props) {
                     <h1 className="font-bold md:text-2xl text-xl">{title}</h1>
                     <p className="text-kontax-secondary-text">{description}</p>
                 </div>
-                <ImageShowcase imageName={imageName} shadowedClassName="shadowed" />
+                <ImageShowcase imageName={imageName} />
             </ShowcaseWrapper>
         </Fade>
     )

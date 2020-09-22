@@ -7,7 +7,7 @@ export default function featureView(props) {
     const description = props.description
 
     return (
-        <div className="rounded-lg p-4 bg-gray-200">
+        <div className="p-4">
             <div className="flex items-center">
                 <img className="w-10" src={require('../images/' + iconName)} alt={title + 'icon'} />
                 <h1 className="text-lg ml-4">{title}</h1>

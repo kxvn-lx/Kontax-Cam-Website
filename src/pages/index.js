@@ -21,7 +21,7 @@ function IndexPage() {
             <Fade>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="text-center md:text-left m-auto">
-                        <h1 className="text-2xl font-bold mt-4">Instant camera hybrid app for films and digital photographers, by photographers.</h1>
+                        <h1 className="fluid text-2xl md:text-3xl font-bold mt-4">The instant camera hybrid app for film and digital photographers.</h1>
                         <p className="text-kontax-secondary-text mx-auto mt-4">
                             Minimalist instant camera app optimised for any iOS device.
                             Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
@@ -46,7 +46,8 @@ function IndexPage() {
                             </div>
                         </div>
                     </div>
-                    <ImageShowcase imageName="001.png" shadowedClassName="shadowed" />
+
+                    <ImageShowcase imageName="001_ex.png" />
                 </div>
             </Fade>
 
@@ -68,9 +69,9 @@ function IndexPage() {
             <div className="separator" />
 
             <div className="mt-20">
-                <h1 className="font-bold text-2xl">Features</h1>
+                <h1 className="font-bold text-2xl text-center">Why you'll love Kontax Cam ❤️</h1>
                 <Fade>
-                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4">
+                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 md:max-w-3xl mx-auto">
                         {
                             featureList.map(item => (
                                 <FeatureView key={item.title}
@@ -100,7 +101,7 @@ function IndexPage() {
 
 export default IndexPage;
 
-// Styled Componentsmes
+// Styled Components
 
 // Datasource
 const showcaseList = (
@@ -114,14 +115,14 @@ const showcaseList = (
         },
         {
             isLeftAligned: true,
-            imageName: '004.png',
+            imageName: '002.png',
             title: 'Carefully crafted effects',
             description: `Kontax Cam believes that every photographer should define their own style of art. With that in mind,
             Kontax Cam delivers a handful amount of effects to make your photo looks unique.`
         },
         {
             isLeftAligned: false,
-            imageName: '002.png',
+            imageName: '004.png',
             title: 'One lab to rule them all',
             description: `Your very own, privacy first, images lab. Just like the iconic darkroom for film photographers,
             we provide you with Lab - the place for all of your masterpiece.`
@@ -166,6 +167,16 @@ const featureList = (
             iconName: 'sun.svg',
             title: 'Light/Dark mode',
             description: `By default Kontax Cam follows the system's appearance. However, you can pick either a light or dark mode in the settings page!`
+        },
+        {
+            iconName: 'drag.svg',
+            title: 'Your own adjustment choice',
+            description: `Adjust the exposure with a swipe up or down, or simply just tap anywhere on the camera screen to auto focus/exposure.`
+        },
+        {
+            iconName: 'shake.svg',
+            title: 'Shake to report the bug!',
+            description: `Spot a bug? Shake it so that we could squash them for ya!`
         }
     ]
 )
