@@ -13,6 +13,13 @@ date: "4-09-2020"
     </h1>
 </div>
 
+### 1.1.1
+**Changes**
+- None
+
+**Fixes**
+- Fixed swipe gesture conflicting with the new slide exposure feature
+
 ### 1.1.0
 **Changes**
 - Added indonesian localization! 🇮🇩 If you wished to help with translating the app, please get in touch! 
