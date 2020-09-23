@@ -34,11 +34,13 @@ const PHWrapper = styled.a`
     position: fixed;
     bottom: 20px;
     left: 20px;
-    width: 250px;
-    height: 54px;
+    img {
+        width: 12.5rem;
+    }
 
     @media (max-width: 768px) {
-        width: 200px;
-        height: 40px;
+        img {
+            width: 10rem;
+        }
   }
 `

@@ -14,7 +14,7 @@ export default function showcaseView(props) {
             <ShowcaseWrapper isLeftAligned={isLeftAligned} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
                 <div id="content" className="m-auto w-5/6">
                     <h1 className="font-bold md:text-2xl text-xl">{title}</h1>
-                    <p className="text-kontax-secondary-text">{description}</p>
+                    <p className="">{description}</p>
                 </div>
                 <ImageShowcase imageName={imageName} />
             </ShowcaseWrapper>

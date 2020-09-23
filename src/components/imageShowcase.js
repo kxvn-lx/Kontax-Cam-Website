@@ -30,7 +30,7 @@ const ImageShowcase = (props) => {
 
     return (
         <div>
-            <Img className={`w-full md:w-4/5 mx-auto`} fluid={image.node.childImageSharp.fluid} />
+            <Img className={`w-full md:w-3/4 mx-auto`} fluid={image.node.childImageSharp.fluid} />
         </div>
     )
 }

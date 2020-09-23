@@ -8,9 +8,8 @@ export default function featureView(props) {
 
     return (
         <div className="p-4">
-            <div className="flex items-center">
-                <img className="w-10" src={require('../images/' + iconName)} alt={title + 'icon'} />
-                <h1 className="text-lg ml-4">{title}</h1>
+            <div className="">
+                <h1 className="font-bold">{title}</h1>
             </div>
             <p className="text-kontax-secondary-text mt-4">{description}</p>
         </div>

@@ -20,6 +20,8 @@ date: "4-09-2020"
 **Fixes**
 - Fixed swipe gesture conflicting with the new slide exposure feature
 
+---
+
 ### 1.1.0
 **Changes**
 - Added indonesian localization! 🇮🇩 If you wished to help with translating the app, please get in touch! 
@@ -30,6 +32,8 @@ date: "4-09-2020"
 **Fixes**
 - Select button on lab screen still registers even though no photos are present.
 
+---
+
 ### 1.0.1
 **Changes**
 - none
@@ -37,9 +41,12 @@ date: "4-09-2020"
 **Fixes**
 - Launchscreen glitch on some devices
 
+---
+
 ### 1.0 Official
 - Released on the app store! 🥳
 
+---
 
 ### 1.0(19)
 **Changes**
@@ -54,6 +61,7 @@ date: "4-09-2020"
 - Migrated backend infrastructure to a dedicated package resulting a more modular and faster app.
 - Improve filter info UI and UX
 
+---
 
 ### 1.0(16)
 **Changes**
@@ -64,6 +72,8 @@ date: "4-09-2020"
 
 **Fixes**
 - None
+
+---
 
 ### 1.0(15)
 **Changes**

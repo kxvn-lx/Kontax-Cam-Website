@@ -19,24 +19,24 @@ function IndexPage() {
             />
 
             <Fade>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="text-center md:text-left m-auto">
+                <div className="grid grid-cols-1 gap-4 w-full md:max-w-xl mx-auto">
+                    <div className="text-center m-auto">
                         <h1 className="fluid text-2xl md:text-3xl font-bold mt-4">The instant camera hybrid app for film and digital photographers.</h1>
-                        <p className="text-kontax-secondary-text mx-auto mt-4">
+                        <p className="mx-auto mt-4">
                             Minimalist instant camera app optimised for any iOS device.
                             Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
                             while allowing photographers to blend in digital aspects to make a unique masterpiece.
                         </p>
-                        <div className="md:flex items-center mt-10 justify-center md:justify-start">
+                        <div className="mt-20">
                             <a
                                 className="main-button"
                                 href="https://apps.apple.com/app/kontax-cam/id1527110773"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <img src={require('../images/download.svg')} alt="Download on the app store" />
+                                Download
                             </a>
 
-                            <div className="mt-4 md:mt-0 md:ml-4">
+                            <div className="mt-10">
                                 <Modal modalTitle="Or scan the barcode">
                                     <div className="w-3/4">
                                         <img className="h-40 w-40 rounded-lg" src={require("../images/barcodeSVG.svg")} alt="Kontax Cam barcode" />
@@ -69,7 +69,7 @@ function IndexPage() {
             <div className="separator" />
 
             <div className="mt-20">
-                <h1 className="font-bold text-2xl text-center">Why you'll love Kontax Cam ❤️</h1>
+                <h1 className="font-bold text-2xl text-center">Why you'll love Kontax Cam</h1>
                 <Fade>
                     <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 md:max-w-3xl mx-auto">
                         {
@@ -91,7 +91,7 @@ function IndexPage() {
                     href="https://apps.apple.com/app/kontax-cam/id1527110773"
                     target="_blank"
                     rel="noopener noreferrer">
-                    <img src={require('../images/download.svg')} alt="Download on the app store" />
+                    Download
                 </a>
             </div>
 
