@@ -21,7 +21,7 @@ function IndexPage() {
             <Fade>
                 <div className="grid grid-cols-1 gap-4 w-full md:max-w-xl mx-auto">
                     <div className="text-center m-auto">
-                        <h1 className="fluid text-2xl md:text-3xl font-bold mt-4">The instant camera hybrid app for film and digital photographers.</h1>
+                        <h1 className="fluid text-2xl md:text-4xl font-bold mt-4">The instant camera hybrid app for film and digital photographers.</h1>
                         <p className="mx-auto mt-4">
                             Minimalist instant camera app optimised for any iOS device.
                             Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
@@ -71,7 +71,7 @@ function IndexPage() {
             <div className="mt-20">
                 <h1 className="font-bold text-2xl text-center">Why you'll love Kontax Cam</h1>
                 <Fade>
-                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 md:max-w-3xl mx-auto">
+                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-20 md:max-w-3xl mx-auto">
                         {
                             featureList.map(item => (
                                 <FeatureView key={item.title}
@@ -85,7 +85,7 @@ function IndexPage() {
                 </Fade>
             </div>
 
-            <div className="md:flex items-center mt-20 justify-center md:justify-start">
+            <div className="text-center mt-20">
                 <a
                     className="main-button mx-auto"
                     href="https://apps.apple.com/app/kontax-cam/id1527110773"
