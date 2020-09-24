@@ -7,7 +7,7 @@ import Footer from "./footer"
 
 function Layout({ children }) {
     return (
-        <div className="flex flex-col min-h-screen font-sans bg-kontax-white text-black px-4">
+        <div className="flex flex-col min-h-screen font-sans text-black px-4">
             <Header />
 
             <PHWrapper href="https://www.producthunt.com/posts/kontax-cam-for-ios?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kontax-cam-for-ios" target="_blank" rel="noopener noreferrer">

@@ -20,7 +20,11 @@ h6 {
 }
 
 html {
-    background-color: #f4f4f4;
+    background: url('../images/grad.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     transition: 0.25s ease-in-out;
 }
 
