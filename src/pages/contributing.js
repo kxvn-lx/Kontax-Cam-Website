@@ -9,10 +9,10 @@ function Contributing() {
         <Layout>
             <SEO title="Kontax Cam" />
             <Fade>
-                <div className="mt-20 md:mt-40 relative">
+                <div className="relative">
                     <h1 className="font-bold max-w-lg text-2xl md:text-6xl">Contributing to Kontax Cam</h1>
                     <div className="md:ml-10">
-                        <p className="text-kontax-secondary-text max-w-2xl text-justify text-xl md:text-3xl">
+                        <p className="text-kontax-secondary-text max-w-2xl text-justify text-lg md:text-2xl">
                             By contributing to an open-source software, not only benefits you, but it also benefits the whole society.
                             This can be a one-time thing, contribute something and done, or a recurring thing. Whatever it is, it's your choice. You control your own decision.
                         </p>
@@ -36,7 +36,7 @@ function Contributing() {
                     }
                 </div>
 
-                <p className="text-kontax-secondary-text mt-20">Melbourne, Australia & remote</p>
+                <p className="mt-20">Melbourne, Australia & remote</p>
 
             </Fade>
         </Layout>

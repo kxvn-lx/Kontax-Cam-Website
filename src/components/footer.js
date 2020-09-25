@@ -7,7 +7,7 @@ export default function footer() {
     return (
         <FooterWrapper>
             <div className="text-center max-w-6xl p-3 mx-auto text-sm md:p-8">
-                <div className="justify-around flex md:block mb-4">
+                <UpperLink className="mb-4">
                     <a
                         href="https://www.twitter.com/kontaxcam" target="_blank" rel="noopener noreferrer">
                         <img src={require('../images/twitter.svg')} alt="twitter icon" />
@@ -20,17 +20,19 @@ export default function footer() {
                         href="mailto:kevinlaminto.dev@gmail.com" target="_blank" rel="noopener noreferrer">
                         <img src={require('../images/mail.svg')} alt="Email icon" />
                     </a>
-                </div>
+                </UpperLink>
 
-                <div className="">
+                <div>
                     <Link to="/contributing">
                         Contributing
                     </Link>
                     <Link to="/change-log">
                         Change log
                     </Link>
+                    <Link to="/dev-journal">
+                        Dev journal
+                    </Link>
                     <a
-
                         href={'/press-kit.zip'} download>
                         Press Kit
                     </a>
@@ -50,5 +52,11 @@ export default function footer() {
 const FooterWrapper = styled.footer`
     a:hover {
         text-decoration: none;
+    }
+`
+
+const UpperLink = styled.div`
+    a {
+        display: inline-block;
     }
 `

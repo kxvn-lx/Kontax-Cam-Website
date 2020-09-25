@@ -3,7 +3,7 @@ path: "/change-log"
 title: "Change-log"
 date: "4-09-2020"
 ---
-<div class="my-20 md:my-40">
+<div>
     <p class="font-bold w-full text-2xl md:text-6xl text-center md:text-left">
         Change log
     </p>

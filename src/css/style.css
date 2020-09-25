@@ -52,6 +52,10 @@ img {
     margin: 10rem auto;
 }
 
+a {
+    @apply text-gray-400;
+}
+
 a:hover {
     @apply underline;
 }
@@ -71,7 +75,7 @@ a:hover {
 
 footer a {
     transition: 0.25s ease-in-out;
-    @apply text-black no-underline inline-block mx-2;
+    @apply text-black no-underline mx-2;
 }
 
 @media (min-width: 768px) {
