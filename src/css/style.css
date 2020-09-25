@@ -4,10 +4,10 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap");
 
 .font-sans {
-    font-family: 'Hind', sans-serif;
+    font-family: "Hind", sans-serif;
 }
 
 h1,
@@ -16,15 +16,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 html {
-    background: url('../images/grad.png');
-    background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #f4f4f4;
     transition: 0.25s ease-in-out;
 }
 
@@ -49,14 +45,15 @@ img {
 }
 
 .separator {
-    border: 0;
-    height: 1px;
-    background: rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
+    display: block;
+    height: 5rem;
+    width: 1px;
+    border-right: 1px solid #000;
+    margin: 10rem auto;
 }
 
-a {
-    @apply text-blue-600;
+a:hover {
+    @apply underline;
 }
 
 .main-button {

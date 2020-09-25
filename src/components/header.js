@@ -1,6 +1,8 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React from 'react';
 
+import styled from 'styled-components'
+
 function Header() {
     const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -13,7 +15,7 @@ function Header() {
   `);
 
     return (
-        <nav className="my-10 md:my-20" style={{ zIndex: '98' }}>
+        <NavWrapper className="my-10 md:my-20" style={{ zIndex: '98' }}>
             <div className="flex flex-wrap items-center justify-between max-w-5xl mx-auto py-3">
                 <Link to="/">
                     <p className="text-xl md:text-2xl font-bold text-black">
@@ -25,8 +27,14 @@ function Header() {
                     <p>Available for </p>
                 </div>
             </div>
-        </nav>
+        </NavWrapper>
     );
 }
 
 export default Header;
+
+const NavWrapper = styled.nav`
+    a:hover {
+        text-decoration: none;
+    }
+`

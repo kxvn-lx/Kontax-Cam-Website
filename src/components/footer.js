@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from "gatsby"
 
+import styled from 'styled-components'
+
 export default function footer() {
     return (
-        <footer>
+        <FooterWrapper>
             <div className="text-center max-w-6xl p-3 mx-auto text-sm md:p-8">
                 <div className="justify-around flex md:block mb-4">
                     <a
@@ -41,6 +43,12 @@ export default function footer() {
                     <li><span className="inline-block">Made in Melbourne, Australia.</span></li>
                 </ul>
             </div>
-        </footer>
+        </FooterWrapper>
     )
 }
+
+const FooterWrapper = styled.footer`
+    a:hover {
+        text-decoration: none;
+    }
+`

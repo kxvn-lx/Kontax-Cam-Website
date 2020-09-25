@@ -3,14 +3,10 @@ path: "/change-log"
 title: "Change-log"
 date: "4-09-2020"
 ---
-
-<div align="center">
-    <img src="https://i.ibb.co/C7RCP8W/changelog-background.jpg" alt="Changelog background">
-</div>
-<div class="mt-20 md:mt-40">
-    <h1 align="center">
+<div class="my-20 md:my-40">
+    <p class="font-bold w-full text-2xl md:text-6xl text-center md:text-left">
         Change log
-    </h1>
+    </p>
 </div>
 
 ### 1.1.1
