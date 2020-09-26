@@ -71,6 +71,8 @@ a:hover {
     -webkit-transform: translate(0px, -4px);
     -ms-transform: translate(0px, -4px);
     transform: translate(0px, -4px);
+
+    @apply no-underline;
 }
 
 footer a {
