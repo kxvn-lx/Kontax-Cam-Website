@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 export default function featureView(props) {
-    const iconName = props.iconName
     const title = props.title
     const description = props.description
 

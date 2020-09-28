@@ -4,7 +4,12 @@ title: "Privacy Policy"
 date: "3-09-2020"
 ---
 
-# Privacy Policy
+<div>
+    <p class="font-bold w-full text-2xl md:text-6xl text-center md:text-left">
+        Privacy Policy
+    </p>
+</div>
+
 Last modified: **3 September 2020**
 
 
