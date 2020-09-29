@@ -1,7 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
 import styled from 'styled-components'
-import Clap from 'react-clap-button';
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -52,14 +51,6 @@ function DevJournal() {
                     </JournalWrapper>
 
                     <div className="separator"></div>
-
-                    <ClapWrapper className="text-center">
-                        <Clap
-                            theme={{
-                                secondaryColor: '#000'
-                            }}
-                        />
-                    </ClapWrapper>
                 </div>
             </Fade>
         </Layout>
