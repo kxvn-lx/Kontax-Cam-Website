@@ -23,10 +23,10 @@ function Contributing() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-20 md:ml-10">
                     {
                         helpList.map(item => (
-                            <div key={item.title} className="flex md:w-9/12 px-4 items-center">
+                            <div key={item.title} className="flex md:w-9/12 items-center">
                                 <div>
                                     <h3 className="">{item.title}</h3>
                                     <p className="text-kontax-secondary-text">{item.description}</p>

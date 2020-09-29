@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 
 const ImageShowcase = (props) => {
     const imageName = props.imageName
+    const className = props.className
 
     const data = useStaticQuery(graphql`
       query {
@@ -29,9 +30,7 @@ const ImageShowcase = (props) => {
     )
 
     return (
-        <div>
-            <Img className={`w-full md:w-3/4 mx-auto`} fluid={image.node.childImageSharp.fluid} />
-        </div>
+        <Img className={`${className}`} fluid={image.node.childImageSharp.fluid} />
     )
 }
 
@@ -39,5 +38,5 @@ export default ImageShowcase
 
 ImageShowcase.propTypes = {
     imageName: PropTypes.string.isRequired,
-    shadowedClassName: PropTypes.className
+    className: PropTypes.string
 };

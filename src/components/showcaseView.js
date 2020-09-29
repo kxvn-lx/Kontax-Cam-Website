@@ -16,7 +16,7 @@ export default function showcaseView(props) {
                     <h1 className="font-bold text-2xl md:text-5xl">{title}</h1>
                     <p className={`${isLeftAligned ? `md:float-left` : `md:float-right`} mx-auto w-5/6`}>{description}</p>
                 </div>
-                <ImageShowcase imageName={imageName} />
+                <ImageShowcase imageName={imageName} className="w-full md:w-3/4 mx-auto" />
             </ShowcaseWrapper>
         </Fade>
     )
