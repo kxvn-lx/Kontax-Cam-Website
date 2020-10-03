@@ -28,7 +28,7 @@ function DevJournal() {
                         <p>Now there are heaps of photo-editing tools out there. So creating one would be redundant! Hence why I started to do research into an instant camera-based application.</p>
 
                         <h1>Design</h1>
-                        <Image imageName="j_2.jpeg" className="mt-10 mb-4 w-1/2" />
+                        <Image imageName="j_2.jpeg" className="mt-10 mb-4 md:w-1/2" />
                         <p className="text-sm font-semibold">Taken with #kontaxcam</p>
                         <p>I tend to approach my UI in a minimalistic manner. I love minimalist design principles and I think if used correctly, it is a very beautiful and elegant thing.</p>
                         <p>Kontax Cam was built around minimalism and simplicity. My main goal was to allow users to capture a gorgeous photo as quickly and easily as possible.</p>

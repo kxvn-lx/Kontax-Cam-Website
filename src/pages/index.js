@@ -22,7 +22,7 @@ function IndexPage() {
                 <div className="grid grid-cols-1 gap-10 mx-auto">
                     <div className="text-center m-auto">
                         <h1 className="fluid text-3xl md:text-6xl font-bold mt-4">The instant camera hybrid app for film and digital photographers.</h1>
-                        <p className="mx-auto mt-4 w-full md:max-w-xl text-lg md:text-2xl">
+                        <p className="mx-auto mt-4 w-full md:max-w-2xl text-lg md:text-2xl">
                             Minimalist instant camera app optimised for any iOS device.
                             Built with precision and love, Kontax Cam provides custom real film effects and filters to emulate 35mm film footage,
                             while allowing photographers to blend in digital aspects to make a unique masterpiece.

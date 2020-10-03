@@ -4,21 +4,6 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap");
-
-.font-sans {
-    font-family: "Hind", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Montserrat", sans-serif;
-}
-
 html {
     background-color: #f4f4f4;
     transition: 0.25s ease-in-out;
