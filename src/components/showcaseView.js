@@ -9,7 +9,7 @@ export default function showcaseView() {
         <Fade>
             <ShowcaseWrapper isLeftAligned={true} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
                 <div id="content" className="m-auto">
-                    <span className="text-orange-500 text-sm">Coming soon</span>
+                    <span className="text-orange-500 text-sm">New feature</span>
                     <h1 className="font-bold text-2xl md:text-5xl">Kontax Editor</h1>
                     <p id="description" className={`mx-auto w-5/6`}>Import your own photo taken outside the app and edit it with Kontax Cam's very own filters and effects.</p>
                 </div>

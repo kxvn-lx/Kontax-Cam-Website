@@ -9,6 +9,16 @@ date: "4-09-2020"
     </p>
 </div>
 
+### 1.2.0
+**Changes**
+- New feature: Kontax Editor!
+- Added a what's new screen for every new major version release.
+
+**Fixes**
+- Audio will no longer be paused when opening the app or app clips.
+
+---
+
 ### 1.1.1
 **Changes**
 - None
