@@ -8,9 +8,9 @@ export default function featureView(props) {
     return (
         <div className="p-4">
             <div className="">
-                <h1 className="font-bold">{title}</h1>
+                <h1 className="font-medium">{title}</h1>
             </div>
-            <p className="text-kontax-secondary-text mt-4">{description}</p>
+            <p className="mt-4">{description}</p>
         </div>
     )
 }

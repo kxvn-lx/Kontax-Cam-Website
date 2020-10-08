@@ -4,14 +4,24 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+.font-sans {
+    font-family: 'Inter', sans-serif;
+}
+
 html {
-    background-color: #f4f4f4;
+    font-size: 15px;
     transition: 0.25s ease-in-out;
 }
 
 button,
 button:focus {
     outline: none;
+}
+
+p {
+    @apply text-kontax-secondary-text;
 }
 
 img {
@@ -38,7 +48,7 @@ img {
 }
 
 a {
-    @apply text-gray-400;
+    @apply text-blue-500;
 }
 
 a:hover {
@@ -62,7 +72,7 @@ a:hover {
 
 footer a {
     transition: 0.25s ease-in-out;
-    @apply text-black no-underline mx-2;
+    @apply text-kontax-secondary-text no-underline mx-2;
 }
 
 @media (min-width: 768px) {

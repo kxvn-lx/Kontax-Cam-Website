@@ -29,7 +29,7 @@ export default function kontaxModal({ children, modalTitle }) {
                     {children}
                 </ModalLayout>
                 <ModalButtonWrapper className="text-center mt-4 border-t border-kontax-white text-black">
-                    <button onClick={closeModal} className="font-bold text-lg mt-4">OK</button>
+                    <button onClick={closeModal} className="font-medium text-lg mt-4">OK</button>
                 </ModalButtonWrapper>
             </Modal>
         </div>

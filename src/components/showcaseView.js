@@ -10,14 +10,15 @@ export default function showcaseView() {
             <ShowcaseWrapper isLeftAligned={true} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
                 <div id="content" className="m-auto">
                     <span className="text-orange-500 text-sm">New feature</span>
-                    <h1 className="font-bold text-2xl md:text-5xl">Kontax Editor</h1>
+                    <h1 className="font-medium text-2xl md:text-3xl">Kontax Editor</h1>
                     <p id="description" className={`mx-auto w-5/6`}>Import your own photo taken outside the app and edit it with Kontax Cam's very own filters and effects.</p>
                 </div>
                 <ImageShowcase imageName="004.png" className="w-full md:w-3/4 mx-auto" />
             </ShowcaseWrapper>
+
             <ShowcaseWrapper isLeftAligned={false} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
                 <div id="content" className="m-auto">
-                    <h1 className="font-bold text-2xl md:text-5xl">Handpicked premium filters</h1>
+                    <h1 className="font-medium text-2xl md:text-3xl">Handpicked premium filters</h1>
                     <p id="description" className={`mx-auto w-5/6`}>Kontax Cam provides filter collections that are made from emulating both classic film stocks and digital camera artifacts.
             Experiment with different combinations to create your own filter and effects combo!</p>
                 </div>
@@ -26,7 +27,7 @@ export default function showcaseView() {
 
             <ShowcaseWrapper isLeftAligned={true} className="grid md:grid-cols-2 grid-cols-1 gap-4 my-20">
                 <div id="content" className="m-auto">
-                    <h1 className="font-bold text-2xl md:text-5xl">Carefully crafted effects</h1>
+                    <h1 className="font-medium text-2xl md:text-3xl">Carefully crafted effects</h1>
                     <p id="description" className={`mx-auto w-5/6`}>Kontax Cam believes that every photographer should define their own style of art. With that in mind,
             Kontax Cam delivers a handful amount of effects to make your photo looks unique.</p>
                 </div>

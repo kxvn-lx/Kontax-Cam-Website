@@ -18,7 +18,7 @@ function Header() {
         <NavWrapper className="my-10 md:my-20" style={{ zIndex: '98' }}>
             <div className="flex flex-wrap items-center justify-between max-w-5xl mx-auto py-3">
                 <Link to="/">
-                    <p className="text-xl md:text-2xl font-bold text-black">
+                    <p className="text-xl md:text-2xl font-medium text-black">
                         {site.siteMetadata.title}
                     </p>
                 </Link>

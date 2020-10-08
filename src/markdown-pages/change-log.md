@@ -4,7 +4,7 @@ title: "Change-log"
 date: "4-09-2020"
 ---
 <div>
-    <p class="font-bold w-full text-2xl md:text-6xl text-center md:text-left">
+    <p class="font-bold w-full text-3xl text-center md:text-left">
         Change log
     </p>
 </div>
