@@ -13,7 +13,7 @@ function DevJournal() {
             <Fade>
                 <div className="relative">
                     <div className="mb-10">
-                        <h1 className="font-bold max-w-lg text-3xl">Dev Journal</h1>
+                        <h1 className="font-medium max-w-lg text-3xl">Dev Journal</h1>
                         <p className="md:ml-10 text-kontax-secondary-text max-w-2xl text-justify">
                             How Kontax Cam was built inside a tiny little room in Melbourne, Australia.
                         </p>

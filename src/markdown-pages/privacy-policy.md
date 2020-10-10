@@ -5,7 +5,7 @@ date: "3-09-2020"
 ---
 
 <div>
-    <p class="font-bold w-full text-2xl md:text-6xl text-center md:text-left">
+    <p class="font-medium max-w-lg text-3xl">
         Privacy Policy
     </p>
 </div>
