@@ -49,8 +49,6 @@ function DevJournal() {
                         <p>For my very first big project, I'm quite happy with how in turned out. I still can't believe I did this all by myself!</p>
                         <p>Now this is nowhere to be finished, and I will of course be adding more features, effects, filters, fixes and awesome stuff in the future! If you are willing to help, got some cool ideas, wanted to add your filters, don't hesitate to contact me.</p>
                     </JournalWrapper>
-
-                    <div className="separator"></div>
                 </div>
             </Fade>
         </Layout>
