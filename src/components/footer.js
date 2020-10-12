@@ -9,7 +9,7 @@ export default function footer() {
             <h1 className="font-medium text-black">Kontax Cam</h1>
             <p>Designed and built with love in Melbourne, Australia</p>
 
-            <div className="grid md:grid-cols-3 grid-cols-2 gap-4 my-20">
+            <div className="grid md:grid-cols-3 grid-cols-2 gap-10 my-20">
                 <FooterLinks>
                     <h3>Connect</h3>
                     <ul>
@@ -40,7 +40,7 @@ export default function footer() {
                         <li>
                             <Link to="/dev-journal">Dev Journal</Link>
                         </li>
-                        <li><a href={'/press-kit.zip'} download>Email</a></li>
+                        <li><a href={'/press-kit.zip'} download>Press Kit</a></li>
                     </ul>
                 </FooterLinks>
             </div>
