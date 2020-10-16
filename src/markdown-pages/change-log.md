@@ -9,6 +9,13 @@ date: "4-09-2020"
     </p>
 </div>
 
+### 1.2.1
+**Changes**
+- Added close confirmation on photo editor
+
+**Fixes**
+- None
+
 ### 1.2.0
 **Changes**
 - New feature: Kontax Editor!
@@ -42,7 +49,7 @@ date: "4-09-2020"
 
 ### 1.0.1
 **Changes**
-- none
+- None
 
 **Fixes**
 - Launchscreen glitch on some devices
