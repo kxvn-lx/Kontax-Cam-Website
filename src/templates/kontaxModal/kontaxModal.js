@@ -1,49 +1,54 @@
-import React, { useState } from "react";
-import Modal from 'react-modal';
-import PropTypes from "prop-types";
+import React, { useState } from 'react'
+import Modal from 'react-modal'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import "./kontaxModal.css"
+import './kontaxModal.css'
 
 export default function kontaxModal({ children, modalTitle }) {
-    const [modalIsOpen, setIsOpen] = useState(false);
+    const [modalIsOpen, setIsOpen] = useState(false)
     function openModal() {
-        setIsOpen(true);
+        setIsOpen(true)
     }
 
     function closeModal() {
-        setIsOpen(false);
+        setIsOpen(false)
     }
 
     return (
-        <div>
-            <button onClick={openModal} className="text-kontax-secondary-text">{modalTitle}</button>
+        <React.Fragment>
+            <button onClick={openModal} className='text-kontax-secondary-text'>
+                {modalTitle}
+            </button>
             <Modal
                 isOpen={modalIsOpen}
-                contentLabel="Kontax Cam Modal"
+                contentLabel='Kontax Cam Modal'
                 onRequestClose={closeModal}
-                className="Modal text-white mx-auto px-10 py-5 rounded-lg flex-1 w-4/5 max-w-md bg-white"
-                overlayClassName="Overlay"
+                className='Modal text-white mx-auto px-10 py-5 rounded-lg flex-1 w-4/5 max-w-md bg-white'
+                overlayClassName='Overlay'
             >
-                <ModalLayout className="text-center text-black">
+                <ModalLayout className='text-center text-black'>
                     {children}
                 </ModalLayout>
-                <ModalButtonWrapper className="text-center mt-4 border-t border-kontax-white text-black">
-                    <button onClick={closeModal} className="font-medium text-lg mt-4">OK</button>
+                <ModalButtonWrapper className='text-center mt-4 border-t border-kontax-white text-black'>
+                    <button
+                        onClick={closeModal}
+                        className='font-medium text-lg mt-4'
+                    >
+                        OK
+                    </button>
                 </ModalButtonWrapper>
             </Modal>
-        </div>
+        </React.Fragment>
     )
 }
 
 kontaxModal.PropTypes = {
     children: PropTypes.node.isRequired,
-    modalTitle: PropTypes.string.isRequired
+    modalTitle: PropTypes.string.isRequired,
 }
 
 const ModalLayout = styled.div`
     text-align: -webkit-center;
 `
-const ModalButtonWrapper = styled.div`
-
-`
+const ModalButtonWrapper = styled.div``
