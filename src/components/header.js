@@ -25,11 +25,11 @@ function Header() {
 
                 <div className='text-xs text-kontax-secondary-text'>
                     <ul className='flex items-center'>
-                        {/* <li>
+                        <li>
                             <Link to='/creators/'>
                                 Creators <CreatorNew>New</CreatorNew>
                             </Link>
-                        </li> */}
+                        </li>
                         <li className='ml-4'>
                             <p className='border  p-1 md:p-2 rounded-lg border-kontax-secondary-text'>
                                 Available for 
@@ -52,15 +52,20 @@ const NavWrapper = styled.nav`
 const CreatorNew = styled.span`
     position: relative;
     top: -10px;
-    background-image: linear-gradient(
+    background: #12c2e9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
         to right,
-        #ff8177 0%,
-        #ff867a 0%,
-        #ff8c7f 21%,
-        #f99185 52%,
-        #cf556c 78%,
-        #b12a5b 100%
-    );
+        #f64f59,
+        #c471ed,
+        #12c2e9
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #f64f59,
+        #c471ed,
+        #12c2e9
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

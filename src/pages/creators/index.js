@@ -12,12 +12,20 @@ function creators() {
             <SEO title='Creators' />
 
             <Fade>
-                <ImageShowcase imageName='creators.JPG' className='mb-4' />
+                <div className='mb-20 w-full md:w-2/3 mx-auto'>
+                    <ImageShowcase imageName='creators.JPG' />
+                </div>
                 <h1 className='font-medium max-w-lg text-3xl'>Creators</h1>
-                <div className='md:ml-10'>
-                    <p className='text-kontax-secondary-text max-w-2xl text-justify'>
+                <div className='md:ml-10 text-kontax-secondary-text max-w-2xl text-justify'>
+                    <p>
                         Kontax Cam is built by creators, and for creators. If
                         you wished to join the community, this is for you!
+                    </p>
+                    <p className='mt-4'>
+                        For now, you can be a part of the community by
+                        submitting your filter collections. It will be reviewed,
+                        and once we everything is clear, it will be added to our
+                        filter sections in app!
                     </p>
                 </div>
 

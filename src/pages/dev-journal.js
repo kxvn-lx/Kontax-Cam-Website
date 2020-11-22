@@ -145,9 +145,3 @@ const JournalWrapper = styled.div`
         }
     }
 `
-
-const ClapWrapper = styled.div`
-    button > svg {
-        margin: auto;
-    }
-`
