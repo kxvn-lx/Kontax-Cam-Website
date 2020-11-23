@@ -32,7 +32,7 @@ function creators() {
                     <ButtonWrapper className='inline-grid md:flex items-center mt-10 gap-4'>
                         <Link
                             to='/creators/submit'
-                            className='px-6 py-3 font-bold bg-white text-black rounded-lg'
+                            className='px-6 py-3 font-bold bg-white text-black rounded-lg text-center'
                         >
                             Submit your collection
                         </Link>
