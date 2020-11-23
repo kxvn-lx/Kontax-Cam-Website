@@ -13,7 +13,7 @@ import { features } from '../datas/features'
 function IndexPage() {
     return (
         <React.Fragment>
-            <div className='px-4 py-10 text-center md:flex justify-center'>
+            <section className='px-4 py-10 text-center md:flex justify-center'>
                 <p>
                     We're on Product Hunt — your support means everything to us
                 </p>
@@ -25,7 +25,7 @@ function IndexPage() {
                 >
                     Check us out
                 </a>
-            </div>
+            </section>
             <Layout>
                 <SEO
                     keywords={[
@@ -38,7 +38,7 @@ function IndexPage() {
                 />
 
                 <Fade>
-                    <div className='grid grid-cols-1 gap-10 mx-auto'>
+                    <section className='grid grid-cols-1 gap-10 mx-auto'>
                         <div className='text-center m-auto'>
                             <h1 className='fluid text-3xl font-bold mt-4 w-full md:max-w-xl'>
                                 The instant camera hybrid app for creative
@@ -87,20 +87,20 @@ function IndexPage() {
                         <div className='w-full md:max-w-lg mx-auto'>
                             <ImageShowcase imageName='001_ex.png' />
                         </div>
-                    </div>
+                    </section>
                 </Fade>
 
                 <div className='separator' />
 
                 {/* Showcases */}
-                <div className='mt-10'>
+                <section className='mt-10'>
                     <ShowcaseView />
-                </div>
+                </section>
 
                 <div className='separator' />
 
                 {/* Features */}
-                <div className='mt-20'>
+                <section className='mt-20'>
                     <h1 className='font-medium text-2xl md:text-3xl text-center'>
                         Why you'll love
                         <br />
@@ -113,7 +113,7 @@ function IndexPage() {
                             ))}
                         </div>
                     </Fade>
-                </div>
+                </section>
 
                 <div className='text-center mt-20'>
                     <a

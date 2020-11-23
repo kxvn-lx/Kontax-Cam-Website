@@ -11,7 +11,7 @@ function DevJournal() {
         <Layout>
             <SEO title='Kontax Cam' />
             <Fade>
-                <div className='relative'>
+                <section className='relative'>
                     <div className='mb-10'>
                         <h1 className='font-medium max-w-lg text-3xl'>
                             Dev Journal
@@ -115,7 +115,7 @@ function DevJournal() {
                             your filters, don't hesitate to contact me.
                         </p>
                     </JournalWrapper>
-                </div>
+                </section>
             </Fade>
         </Layout>
     )
