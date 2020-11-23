@@ -31,13 +31,13 @@ function creators() {
                 <ButtonWrapper className='inline-grid md:flex items-center mt-10 gap-4'>
                     <Link
                         to='/creators/submit'
-                        className='px-6 py-3 font-bold bg-white text-black rounded-lg hover:no-underline'
+                        className='px-6 py-3 font-bold bg-white text-black rounded-lg'
                     >
                         Submit your collection
                     </Link>
                     <a
                         href='mailto:kevinlaminto.dev@gmail.com'
-                        className='px-6 py-3 border-white border rounded-lg text-white hover:no-underline'
+                        className='px-6 py-3 border-white border rounded-lg text-white'
                     >
                         Got question? Contact Us.
                     </a>

@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    @apply underline;
+    @apply no-underline;
 }
 
 .main-button {
