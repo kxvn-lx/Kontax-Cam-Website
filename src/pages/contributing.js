@@ -9,7 +9,7 @@ function Contributing() {
         <Layout>
             <SEO title='Kontax Cam' />
             <Fade>
-                <div className='relative'>
+                <section className='relative'>
                     <h1 className='font-medium max-w-lg text-3xl'>
                         Contributing to Kontax Cam
                     </h1>
@@ -33,7 +33,7 @@ function Contributing() {
                             </a>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-20 md:ml-10'>
                     {helpList.map((item) => (
