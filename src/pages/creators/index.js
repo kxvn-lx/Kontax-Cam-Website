@@ -29,7 +29,7 @@ function creators() {
                         to get your collection added to the Kontax Cam library.
                     </p>
 
-                    <ButtonWrapper className='inline-grid md:flex items-center mt-10 gap-4'>
+                    <ButtonWrapper className='inline-grid items-center mt-10 gap-4 md:grid-cols-2 grid-cols-1'>
                         <Link
                             to='/creators/submit'
                             className='px-6 py-3 font-bold bg-white text-black rounded-lg text-center'
