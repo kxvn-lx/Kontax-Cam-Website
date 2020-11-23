@@ -15,34 +15,36 @@ function creators() {
                 </Link>
             </nav>
 
-            <section className='flex-1 w-full max-w-xl mx-auto py-8 md:py-16 mb-40 text-white'>
-                <h1 className='font-medium max-w-lg text-3xl'>Creators</h1>
-                <p className='mt-4'>
-                    Kontax Cam is built by creators, and for creators. If you
-                    wished to join the community, this is for you.
-                </p>
-                <p className='mt-4'>
-                    For now, you can be a part of the community by submitting
-                    your filter collections. It will be reviewed, and once we
-                    everything is clear, our team will reach out to get your
-                    collection added to the Kontax Cam library.
-                </p>
+            <Fade>
+                <section className='flex-1 w-full max-w-xl mx-auto py-8 md:py-16 mb-40 text-white'>
+                    <h1 className='font-medium max-w-lg text-3xl'>Creators</h1>
+                    <p className='mt-4'>
+                        Kontax Cam is built by creators, and for creators. If
+                        you wished to join the community, this is for you.
+                    </p>
+                    <p className='mt-4'>
+                        For now, you can be a part of the community by
+                        submitting your filter collections. It will be reviewed,
+                        and once we everything is clear, our team will reach out
+                        to get your collection added to the Kontax Cam library.
+                    </p>
 
-                <ButtonWrapper className='inline-grid md:flex items-center mt-10 gap-4'>
-                    <Link
-                        to='/creators/submit'
-                        className='px-6 py-3 font-bold bg-white text-black rounded-lg'
-                    >
-                        Submit your collection
-                    </Link>
-                    <a
-                        href='mailto:kevinlaminto.dev@gmail.com'
-                        className='px-6 py-3 border-white border rounded-lg text-white'
-                    >
-                        Got question? Contact Us.
-                    </a>
-                </ButtonWrapper>
-            </section>
+                    <ButtonWrapper className='inline-grid md:flex items-center mt-10 gap-4'>
+                        <Link
+                            to='/creators/submit'
+                            className='px-6 py-3 font-bold bg-white text-black rounded-lg'
+                        >
+                            Submit your collection
+                        </Link>
+                        <a
+                            href='mailto:kevinlaminto.dev@gmail.com'
+                            className='px-6 py-3 border-white border rounded-lg text-white'
+                        >
+                            Got question? Contact Us.
+                        </a>
+                    </ButtonWrapper>
+                </section>
+            </Fade>
         </CreatorWrapper>
     )
 }
